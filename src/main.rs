@@ -31,14 +31,19 @@ fn parse_unicode_data_line(line: &str) -> Option<String> {
 }
 
 fn generate_unicode_table() -> Result<PathBuf, Error> {
-    let content = String::from_utf8(include_bytes!("UnicodeData.txt").to_vec()).unwrap();
+    let mut out_path = env::temp_dir();
+    out_path.push("UnicodeData");
 
+    // If file already exists, assume it's correct.
+    if File::open(out_path.clone()).is_ok() {
+        return Ok(out_path);
+    }
+
+    let content = String::from_utf8(include_bytes!("UnicodeData.txt").to_vec()).unwrap();
     let table = content
         .split('\n')
         .flat_map(parse_unicode_data_line)
         .collect::<String>();
-    let mut out_path = env::temp_dir();
-    out_path.push("table");
     let mut output = File::create(&out_path)?;
     output.write_all(table.as_bytes())?;
     Ok(out_path)
