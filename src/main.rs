@@ -1,7 +1,9 @@
 use skim::{Skim, SkimOptionsBuilder};
 use std::convert::TryFrom;
+use std::env;
 use std::fs::File;
-use std::io::{prelude::*, BufReader};
+use std::io::{prelude::*, BufReader, Error};
+use std::path::PathBuf;
 
 fn parse_unicode_data_line(line: &str) -> Option<String> {
     let tokens = line.split(';').collect::<Vec<_>>();
@@ -28,22 +30,21 @@ fn parse_unicode_data_line(line: &str) -> Option<String> {
     }
 }
 
-fn generate_unicode_table() -> Result<String, std::io::Error> {
+fn generate_unicode_table() -> Result<PathBuf, Error> {
     let content = String::from_utf8(include_bytes!("UnicodeData.txt").to_vec()).unwrap();
 
     let table = content
         .split('\n')
         .flat_map(parse_unicode_data_line)
         .collect::<String>();
-    let out_dir = "gen".to_owned();
-    std::fs::create_dir_all(&out_dir)?;
-    let out_path = out_dir + "/table";
+    let mut out_path = env::temp_dir();
+    out_path.push("table");
     let mut output = File::create(&out_path)?;
     output.write_all(table.as_bytes())?;
     Ok(out_path)
 }
 
-fn main() -> Result<(), std::io::Error> {
+fn main() -> Result<(), Error> {
     let options = SkimOptionsBuilder::default()
         .regex(true)
         .reverse(true)
