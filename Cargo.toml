@@ -7,6 +7,7 @@ edition = "2018"
 
 [dependencies]
 skim = "0.6.8"
+structopt = "0.2.18"
 
 [[bin]]
 name = "fu"
