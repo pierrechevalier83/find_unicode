@@ -8,8 +8,8 @@ fn main() -> Result<(), Error> {
         .height(Some("80%"))
         .build()
         .unwrap();
-    let reader = BufReader::new(&include_bytes!("UnicodeData")[..]);
-    if let Some(output) = Skim::run_with(&options, Some(Box::new(reader))) {
+    let unicode_data = BufReader::new(&include_bytes!("UnicodeData")[..]);
+    if let Some(output) = Skim::run_with(&options, Some(Box::new(unicode_data))) {
         for item in output.selected_items.iter() {
             println!("{}", item.get_output_text());
         }
