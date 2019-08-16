@@ -52,8 +52,10 @@ fn main() -> Result<(), Error> {
     let options = Options::from_args();
     let options = SkimOptionsBuilder::default()
         .regex(options.search == Search::Regex)
+        .exact(options.search == Search::Exact)
         .reverse(options.layout == Layout::Below)
         .height(Some(&options.height))
+        .multi(true)
         .build()
         .unwrap();
     let unicode_data = BufReader::new(&include_bytes!("UnicodeData")[..]);
