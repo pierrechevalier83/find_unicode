@@ -28,10 +28,8 @@ fn parse_unicode_data_line(line: &str) -> Option<String> {
     }
 }
 
-fn generate_unicode_table(input: &str) -> Result<String, std::io::Error> {
-    let mut f = File::open(input)?;
-    let mut content = String::new();
-    f.read_to_string(&mut content)?;
+fn generate_unicode_table() -> Result<String, std::io::Error> {
+    let content = String::from_utf8(include_bytes!("UnicodeData.txt").to_vec()).unwrap();
 
     let table = content
         .split('\n')
@@ -52,7 +50,7 @@ fn main() -> Result<(), std::io::Error> {
         .height(Some("80%"))
         .build()
         .unwrap();
-    let path = generate_unicode_table("./assets/UnicodeData.txt")?;
+    let path = generate_unicode_table()?;
     let output = File::open(path)?;
     let reader = BufReader::new(output);
     if let Some(output) = Skim::run_with(&options, Some(Box::new(reader))) {
