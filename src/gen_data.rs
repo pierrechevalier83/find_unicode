@@ -11,15 +11,14 @@ fn parse_unicode_data_line(line: &str) -> Option<String> {
     } else {
         if let Ok(index) = u32::from_str_radix(tokens[0], 16) {
             if let Ok(character) = char::try_from(index) {
-                let mut name = tokens[1].to_string();
-                if name.to_lowercase().contains("control") {
+                let name = tokens[1].to_string();
+                if name.is_empty()
+                    || name.starts_with("<")
+                    || name.to_lowercase().contains("control")
+                {
                     return None;
-                } else if name.starts_with("<") {
-                    name = name.replace('_', " ");
-                    name.retain(|c| c != ',' && c != '<' && c != '>');
-                    name = name.to_uppercase()
                 }
-                Some(format!("{:5} {}\n", character, name.to_lowercase()))
+                Some(format!("{}\t{}\n", character, name.to_lowercase()))
             } else {
                 None
             }
