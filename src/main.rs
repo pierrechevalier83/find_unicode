@@ -23,7 +23,7 @@ arg_enum! {
 #[derive(StructOpt)]
 #[structopt(
     name = "fu",
-    about = "Find Unicode characters with ease. Simply type a description of the character you are looking for."
+    about = "\nFind Unicode characters with ease.\n\nSimply type a description of the character you are looking for. Once you found the character you were after, hit Enter. Selecting multiple characters is also possible: hit tab to select a character and continue browsing."
 )]
 struct Options {
     #[structopt(
