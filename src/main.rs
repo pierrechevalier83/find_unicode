@@ -60,6 +60,7 @@ fn main() -> Result<(), Error> {
         .reverse(options.layout == Layout::Below)
         .height(Some(&options.height))
         .multi(true)
+        .inline_info(true)
         // Workaround this bug in skim: https://github.com/lotabout/skim/issues/205
         // until a version with https://github.com/lotabout/skim/commit/73239740cf0616637efdc1f83dba656dc174607f
         // is released
