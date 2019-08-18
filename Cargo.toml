@@ -3,6 +3,12 @@ name = "find_unicode"
 default-run="fu"
 version = "0.1.0"
 authors = ["Pierre Chevalier <pierrechevalier83@gmail.com>"]
+description = "Find Unicode characters, the easy way!"
+documentation = "https://github.com/pierrechevalier83/find_unicode/blob/master/README.md"
+homepage = "https://github.com/pierrechevalier83/find_unicode"
+repository = "https://github.com/pierrechevalier83/find_unicode"
+keywords = ["unicode", "character", "cli", "find", "search", "easy"]
+license = "MIT"
 edition = "2018"
 
 [dependencies]
