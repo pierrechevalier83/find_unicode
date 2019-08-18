@@ -45,7 +45,7 @@ struct Options {
     #[structopt(
         long = "height",
         help = "Height of fu's window relative to the terminal window",
-        default_value = "80%"
+        default_value = "50%"
     )]
     height: String,
 }
