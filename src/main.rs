@@ -26,6 +26,8 @@ arg_enum! {
     about = "\nFind Unicode characters with ease.\n\nSimply type a description of the character you are looking for. Once you found the character you were after, hit Enter. Selecting multiple characters is also possible: hit tab to select a character and continue browsing."
 )]
 struct Options {
+    #[structopt(help = "Initial query, if any")]
+    initial_query: Option<String>,
     #[structopt(
         raw(possible_values = "&Search::variants()", case_insensitive = "true",),
         long = "search",
@@ -50,7 +52,9 @@ struct Options {
 
 fn main() -> Result<(), Error> {
     let options = Options::from_args();
+    let query = options.initial_query.unwrap_or(String::new());
     let options = SkimOptionsBuilder::default()
+        .query(Some(&query))
         .regex(options.search == Search::Regex)
         .exact(options.search == Search::Exact)
         .reverse(options.layout == Layout::Below)
