@@ -65,9 +65,9 @@ To regenerate the data
 ```
 curl https://www.unicode.org/Public/UCD/latest/ucd/UnicodeData.txt > src/UnicodeData.txt
 ```
-* Download the Font Awesome Data:
+* Download the Nerd Fonts Data:
 ```
-curl https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/metadata/icons.yml > src/FontAwesomeData.yml
+curl https://raw.githubusercontent.com/ryanoasis/nerd-fonts/master/css/nerd-fonts-generated.css > src/NerdFontsData.css
 ```
 * Regenerate the prettified data:
 ```

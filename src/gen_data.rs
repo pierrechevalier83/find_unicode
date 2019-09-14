@@ -5,18 +5,22 @@ use std::io::{prelude::*, Error};
 use std::path::PathBuf;
 
 fn generate_font_awesome_table() -> String {
-    let content = String::from_utf8(include_bytes!("FontAwesomeData.yml").to_vec()).unwrap();
+    let content = String::from_utf8(include_bytes!("NerdFontsData.css").to_vec()).unwrap();
     let labels = content
         .split('\n')
-        .filter_map(|s| s.split(" label: ").nth(1));
+        .filter_map(|s| s.split(".nf-").nth(1))
+        .map(|s| s.replace(":before {", ""))
+        .map(|s| s.replace("-", " "));
     let unicode = content
         .split('\n')
-        .filter_map(|s| s.split(" unicode: ").nth(1));
+        .filter_map(|s| s.split("content: ").nth(1))
+        .map(|s| s.replace("\"\\", ""))
+        .map(|s| s.replace("\";", ""));
     labels
         .zip(unicode)
         .map(|(label, unicode)| {
-            let character = try_char_from_string_index(unicode).unwrap();
-            format_line(character, label)
+            let character = try_char_from_string_index(&unicode).unwrap();
+            format_line(character, &label)
         })
         .collect()
 }
