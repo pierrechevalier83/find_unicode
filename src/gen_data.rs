@@ -4,41 +4,66 @@ use std::fs::File;
 use std::io::{prelude::*, Error};
 use std::path::PathBuf;
 
+fn generate_font_awesome_table() -> String {
+    let content = String::from_utf8(include_bytes!("FontAwesomeData.yml").to_vec()).unwrap();
+    let labels = content
+        .split('\n')
+        .filter_map(|s| s.split(" label: ").nth(1));
+    let unicode = content
+        .split('\n')
+        .filter_map(|s| s.split(" unicode: ").nth(1));
+    labels
+        .zip(unicode)
+        .map(|(label, unicode)| {
+            let character = try_char_from_string_index(unicode).unwrap();
+            format_line(character, label)
+        })
+        .collect()
+}
+
+fn try_char_from_string_index(s: &str) -> Option<char> {
+    let index = u32::from_str_radix(s, 16).ok()?;
+    char::try_from(index).ok()
+}
+
+fn format_line(character: char, name: &str) -> String {
+    format!("{}\t{}\n", character, name.to_lowercase())
+}
+
 fn parse_unicode_data_line(line: &str) -> Option<String> {
     let tokens = line.split(';').collect::<Vec<_>>();
     if !tokens.len() == 15 {
         None
     } else {
-        if let Ok(index) = u32::from_str_radix(tokens[0], 16) {
-            if let Ok(character) = char::try_from(index) {
-                let name = tokens[1].to_string();
-                if name.is_empty()
-                    || name.starts_with("<")
-                    || name.to_lowercase().contains("control")
-                {
-                    return None;
-                }
-                Some(format!("{}\t{}\n", character, name.to_lowercase()))
-            } else {
-                None
+        if let Some(character) = try_char_from_string_index(tokens[0]) {
+            let name = tokens[1].to_string();
+            if name.is_empty() || name.starts_with("<") || name.to_lowercase().contains("control") {
+                return None;
             }
+            Some(format_line(character, &name))
         } else {
             None
         }
     }
 }
 
+fn generate_ucd_table() -> String {
+    let content = String::from_utf8(include_bytes!("UnicodeData.txt").to_vec()).unwrap();
+    content
+        .split('\n')
+        .flat_map(parse_unicode_data_line)
+        .collect()
+}
+
 fn generate_unicode_table() -> Result<PathBuf, Error> {
     let mut out_path = env::temp_dir();
     out_path.push("UnicodeData");
 
-    let content = String::from_utf8(include_bytes!("UnicodeData.txt").to_vec()).unwrap();
-    let table = content
-        .split('\n')
-        .flat_map(parse_unicode_data_line)
-        .collect::<String>();
+    let ucd_table = generate_ucd_table();
+    let fa_table = generate_font_awesome_table();
     let mut output = File::create(&out_path.clone())?;
-    output.write_all(table.as_bytes())?;
+    output.write_all(ucd_table.as_bytes())?;
+    output.write_all(fa_table.as_bytes())?;
     Ok(out_path)
 }
 
