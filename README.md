@@ -57,3 +57,20 @@ OPTIONS:
 ARGS:
     <initial_query>    Initial query, if any
 ```
+
+To regenerate the data
+===
+
+* Download the UCD Data:
+```
+curl https://www.unicode.org/Public/UCD/latest/ucd/UnicodeData.txt > src/UnicodeData.txt
+```
+* Download the Font Awesome Data:
+```
+curl https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/metadata/icons.yml > src/FontAwesomeData.yml
+```
+* Regenerate the prettified data:
+```
+cargo run --bin gen_data
+```
+* Copy the generated data to src and commit it.
