@@ -12,8 +12,8 @@ license = "MIT"
 edition = "2018"
 
 [dependencies]
-skim = "0.6.9"
-structopt = "0.2.18"
+skim = "0.9.4"
+structopt = "0.3.25"
 
 [[bin]]
 name = "fu"

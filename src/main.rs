@@ -1,4 +1,7 @@
-use skim::{Skim, SkimOptionsBuilder};
+use skim::{
+    prelude::{SkimItemReader, SkimOptionsBuilder},
+    Skim,
+};
 use std::io::{BufReader, Error};
 use structopt::clap::arg_enum;
 use structopt::StructOpt;
@@ -29,14 +32,16 @@ struct Options {
     #[structopt(help = "Initial query, if any")]
     initial_query: Option<String>,
     #[structopt(
-        raw(possible_values = "&Search::variants()", case_insensitive = "true",),
+        possible_values = &Search::variants(),
+        case_insensitive = true,
         long = "search",
         help = "Search mode",
         default_value = "Regex"
     )]
     search: Search,
     #[structopt(
-        raw(possible_values = "&Layout::variants()", case_insensitive = "true",),
+        possible_values = &Layout::variants(),
+        case_insensitive = true,
         long = "layout",
         help = "Position of fu's window relative to the prompt",
         default_value = "Below"
@@ -64,10 +69,14 @@ fn main() -> Result<(), Error> {
         .build()
         .unwrap();
     let unicode_data = BufReader::new(&include_bytes!("UnicodeData")[..]);
-    if let Some(output) = Skim::run_with(&options, Some(Box::new(unicode_data))) {
-        for item in output.selected_items.iter() {
-            println!("{}", item.get_output_text());
-        }
-    }
+    let item_reader = SkimItemReader::default();
+    let items = item_reader.of_bufread(unicode_data);
+    Skim::run_with(&options, Some(items))
+        .map(|output| output.selected_items)
+        .iter()
+        .flatten()
+        .for_each(|item| {
+            println!("{}", item.output());
+        });
     Ok(())
 }
