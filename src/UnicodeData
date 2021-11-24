@@ -1460,6 +1460,7 @@ z	latin small letter z
 ؚ	arabic small kasra
 ؛	arabic semicolon
 ؜	arabic letter mark
+؝	arabic end of text mark
 ؞	arabic triple dot punctuation mark
 ؟	arabic question mark
 ؠ	arabic letter kashmiri yeh
@@ -2024,6 +2025,47 @@ z	latin small letter z
 ࡨ	syriac letter malayalam lla
 ࡩ	syriac letter malayalam llla
 ࡪ	syriac letter malayalam ssa
+ࡰ	arabic letter alef with attached fatha
+ࡱ	arabic letter alef with attached top right fatha
+ࡲ	arabic letter alef with right middle stroke
+ࡳ	arabic letter alef with left middle stroke
+ࡴ	arabic letter alef with attached kasra
+ࡵ	arabic letter alef with attached bottom right kasra
+ࡶ	arabic letter alef with attached round dot above
+ࡷ	arabic letter alef with attached right round dot
+ࡸ	arabic letter alef with attached left round dot
+ࡹ	arabic letter alef with attached round dot below
+ࡺ	arabic letter alef with dot above
+ࡻ	arabic letter alef with attached top right fatha and dot above
+ࡼ	arabic letter alef with right middle stroke and dot above
+ࡽ	arabic letter alef with attached bottom right kasra and dot above
+ࡾ	arabic letter alef with attached top right fatha and left ring
+ࡿ	arabic letter alef with right middle stroke and left ring
+ࢀ	arabic letter alef with attached bottom right kasra and left ring
+ࢁ	arabic letter alef with attached right hamza
+ࢂ	arabic letter alef with attached left hamza
+ࢃ	arabic tatweel with overstruck hamza
+ࢄ	arabic tatweel with overstruck waw
+ࢅ	arabic tatweel with two dots below
+ࢆ	arabic letter thin yeh
+ࢇ	arabic baseline round dot
+࢈	arabic raised round dot
+ࢉ	arabic letter noon with inverted small v
+ࢊ	arabic letter hah with inverted small v below
+ࢋ	arabic letter tah with dot below
+ࢌ	arabic letter tah with three dots below
+ࢍ	arabic letter keheh with two dots vertically below
+ࢎ	arabic vertical tail
+࢐	arabic pound mark above
+࢑	arabic piastre mark above
+࢘	arabic small high word al-juz
+࢙	arabic small low word ishmaam
+࢚	arabic small low word imaala
+࢛	arabic small low word tasheel
+࢜	arabic madda waajib
+࢝	arabic superscript alef mokhassas
+࢞	arabic doubled madda
+࢟	arabic half madda over madda
 ࢠ	arabic letter beh with small v below
 ࢡ	arabic letter beh with hamza above
 ࢢ	arabic letter jeem with two dots above
@@ -2045,6 +2087,7 @@ z	latin small letter z
 ࢲ	arabic letter zain with inverted v above
 ࢳ	arabic letter ain with three dots below
 ࢴ	arabic letter kaf with dot below
+ࢵ	arabic letter qaf with dot below and no dots above
 ࢶ	arabic letter beh with small meem above
 ࢷ	arabic letter peh with small meem above
 ࢸ	arabic letter teh with small teh above
@@ -2053,6 +2096,27 @@ z	latin small letter z
 ࢻ	arabic letter african feh
 ࢼ	arabic letter african qaf
 ࢽ	arabic letter african noon
+ࢾ	arabic letter peh with small v
+ࢿ	arabic letter teh with small v
+ࣀ	arabic letter tteh with small v
+ࣁ	arabic letter tcheh with small v
+ࣂ	arabic letter keheh with small v
+ࣃ	arabic letter ghain with three dots above
+ࣄ	arabic letter african qaf with three dots above
+ࣅ	arabic letter jeem with three dots above
+ࣆ	arabic letter jeem with three dots below
+ࣇ	arabic letter lam with small arabic letter tah above
+ࣈ	arabic letter graf
+ࣉ	arabic small farsi yeh
+࣊	arabic small high farsi yeh
+࣋	arabic small high yeh barree with two dots below
+࣌	arabic small high word sah
+࣍	arabic small high zah
+࣎	arabic large round dot above
+࣏	arabic large round dot below
+࣐	arabic sukun below
+࣑	arabic large circle below
+࣒	arabic large round dot inside circle below
 ࣓	arabic small low waw
 ࣔ	arabic small high word ar-rub
 ࣕ	arabic small high sad
@@ -2556,6 +2620,7 @@ z	latin small letter z
 ୋ	oriya vowel sign o
 ୌ	oriya vowel sign au
 ୍	oriya sign virama
+୕	oriya sign overline
 ୖ	oriya ai length mark
 ୗ	oriya au length mark
 ଡ଼	oriya letter rra
@@ -2710,6 +2775,7 @@ z	latin small letter z
 ష	telugu letter ssa
 స	telugu letter sa
 హ	telugu letter ha
+఼	telugu sign nukta
 ఽ	telugu sign avagraha
 ా	telugu vowel sign aa
 ి	telugu vowel sign i
@@ -2730,6 +2796,7 @@ z	latin small letter z
 ౘ	telugu letter tsa
 ౙ	telugu letter dza
 ౚ	telugu letter rrra
+ౝ	telugu letter nakaara pollu
 ౠ	telugu letter vocalic rr
 ౡ	telugu letter vocalic ll
 ౢ	telugu vowel sign vocalic l
@@ -2825,6 +2892,7 @@ z	latin small letter z
 ್	kannada sign virama
 ೕ	kannada length mark
 ೖ	kannada ai length mark
+ೝ	kannada letter nakaara pollu
 ೞ	kannada letter fa
 ೠ	kannada letter vocalic rr
 ೡ	kannada letter vocalic ll
@@ -2846,6 +2914,7 @@ z	latin small letter z
 ഁ	malayalam sign candrabindu
 ം	malayalam sign anusvara
 ഃ	malayalam sign visarga
+ഄ	malayalam letter vedic anusvara
 അ	malayalam letter a
 ആ	malayalam letter aa
 ഇ	malayalam letter i
@@ -2959,6 +3028,7 @@ z	latin small letter z
 ൽ	malayalam letter chillu l
 ൾ	malayalam letter chillu ll
 ൿ	malayalam letter chillu k
+ඁ	sinhala sign candrabindu
 ං	sinhala sign anusvaraya
 ඃ	sinhala sign visargaya
 අ	sinhala letter ayanna
@@ -5180,6 +5250,7 @@ z	latin small letter z
 ᜊ	tagalog letter ba
 ᜋ	tagalog letter ma
 ᜌ	tagalog letter ya
+ᜍ	tagalog letter ra
 ᜎ	tagalog letter la
 ᜏ	tagalog letter wa
 ᜐ	tagalog letter sa
@@ -5187,6 +5258,8 @@ z	latin small letter z
 ᜒ	tagalog vowel sign i
 ᜓ	tagalog vowel sign u
 ᜔	tagalog sign virama
+᜕	tagalog sign pamudpod
+ᜟ	tagalog letter archaic ra
 ᜠ	hanunoo letter a
 ᜡ	hanunoo letter i
 ᜢ	hanunoo letter u
@@ -5377,6 +5450,7 @@ z	latin small letter z
 ᠌	mongolian free variation selector two
 ᠍	mongolian free variation selector three
 ᠎	mongolian vowel separator
+᠏	mongolian free variation selector four
 ᠐	mongolian digit zero
 ᠑	mongolian digit one
 ᠒	mongolian digit two
@@ -5979,6 +6053,22 @@ z	latin small letter z
 ᪼	combining double parentheses above
 ᪽	combining parentheses below
 ᪾	combining parentheses overlay
+ᪿ	combining latin small letter w below
+ᫀ	combining latin small letter turned w below
+᫁	combining left parenthesis above left
+᫂	combining right parenthesis above right
+᫃	combining left parenthesis below left
+᫄	combining right parenthesis below right
+᫅	combining square brackets above
+᫆	combining number sign above
+᫇	combining inverted double arch above
+᫈	combining plus sign above
+᫉	combining double plus sign above
+᫊	combining double plus sign below
+᫋	combining triple acute accent
+ᫌ	combining latin small letter insular g
+ᫍ	combining latin small letter insular r
+ᫎ	combining latin small letter insular t
 ᬀ	balinese sign ulu ricem
 ᬁ	balinese sign ulu candra
 ᬂ	balinese sign cecek
@@ -6055,6 +6145,7 @@ z	latin small letter z
 ᭉ	balinese letter ve sasak
 ᭊ	balinese letter zal sasak
 ᭋ	balinese letter asyura sasak
+ᭌ	balinese letter archaic jnya
 ᭐	balinese digit zero
 ᭑	balinese digit one
 ᭒	balinese digit two
@@ -6100,6 +6191,8 @@ z	latin small letter z
 ᭺	balinese musical symbol left-hand closed plak
 ᭻	balinese musical symbol left-hand closed pluk
 ᭼	balinese musical symbol left-hand open ping
+᭽	balinese panti lantang
+᭾	balinese pamada lantang
 ᮀ	sundanese sign panyecek
 ᮁ	sundanese sign panglayar
 ᮂ	sundanese sign pangwisad
@@ -6698,6 +6791,7 @@ z	latin small letter z
 ᷷	combining kavyka above left
 ᷸	combining dot above left
 ᷹	combining wide inverted bridge below
+᷺	combining dot below left
 ᷻	combining deletion mark
 ᷼	combining double inverted breve below
 ᷽	combining almost equal to below
@@ -7377,6 +7471,7 @@ z	latin small letter z
 ₽	ruble sign
 ₾	lari sign
 ₿	bitcoin sign
+⃀	som sign
 ⃐	combining left harpoon above
 ⃑	combining right harpoon above
 ⃒	combining long vertical line overlay
@@ -10064,6 +10159,7 @@ z	latin small letter z
 ⮓	newline right
 ⮔	four corner arrows circling anticlockwise
 ⮕	rightwards black arrow
+⮗	symbol for type a electronics
 ⮘	three-d top-lighted leftwards equilateral arrowhead
 ⮙	three-d right-lighted upwards equilateral arrowhead
 ⮚	three-d top-lighted rightwards equilateral arrowhead
@@ -10215,6 +10311,7 @@ z	latin small letter z
 Ⱜ	glagolitic capital letter shtapic
 Ⱝ	glagolitic capital letter trokutasti a
 Ⱞ	glagolitic capital letter latinate myslite
+Ⱟ	glagolitic capital letter caudate chrivi
 ⰰ	glagolitic small letter azu
 ⰱ	glagolitic small letter buky
 ⰲ	glagolitic small letter vede
@@ -10262,6 +10359,7 @@ z	latin small letter z
 ⱜ	glagolitic small letter shtapic
 ⱝ	glagolitic small letter trokutasti a
 ⱞ	glagolitic small letter latinate myslite
+ⱟ	glagolitic small letter caudate chrivi
 Ⱡ	latin capital letter l with double bar
 ⱡ	latin small letter l with double bar
 Ɫ	latin capital letter l with middle tilde
@@ -10707,6 +10805,20 @@ z	latin small letter z
 ⹍	paragraphus mark
 ⹎	punctus elevatus mark
 ⹏	cornish verse divider
+⹐	cross patty with right crossbar
+⹑	cross patty with left crossbar
+⹒	tironian sign capital et
+⹓	medieval exclamation mark
+⹔	medieval question mark
+⹕	left square bracket with stroke
+⹖	right square bracket with stroke
+⹗	left square bracket with double stroke
+⹘	right square bracket with double stroke
+⹙	top half left parenthesis
+⹚	top half right parenthesis
+⹛	bottom half left parenthesis
+⹜	bottom half right parenthesis
+⹝	oblique hyphen
 ⺀	cjk radical repeat
 ⺁	cjk radical cliff
 ⺂	cjk radical second one
@@ -11481,6 +11593,11 @@ z	latin small letter z
 ㆸ	bopomofo letter gh
 ㆹ	bopomofo letter lh
 ㆺ	bopomofo letter zy
+ㆻ	bopomofo final letter g
+ㆼ	bopomofo letter gw
+ㆽ	bopomofo letter kw
+ㆾ	bopomofo letter oe
+ㆿ	bopomofo letter ah
 ㇀	cjk stroke t
 ㇁	cjk stroke wg
 ㇂	cjk stroke xg
@@ -14052,11 +14169,30 @@ z	latin small letter z
 ꞽ	latin small letter glottal i
 Ꞿ	latin capital letter glottal u
 ꞿ	latin small letter glottal u
+Ꟁ	latin capital letter old polish o
+ꟁ	latin small letter old polish o
 Ꟃ	latin capital letter anglicana w
 ꟃ	latin small letter anglicana w
 Ꞔ	latin capital letter c with palatal hook
 Ʂ	latin capital letter s with hook
 Ᶎ	latin capital letter z with palatal hook
+Ꟈ	latin capital letter d with short stroke overlay
+ꟈ	latin small letter d with short stroke overlay
+Ꟊ	latin capital letter s with short stroke overlay
+ꟊ	latin small letter s with short stroke overlay
+Ꟑ	latin capital letter closed insular g
+ꟑ	latin small letter closed insular g
+ꟓ	latin small letter double thorn
+ꟕ	latin small letter double wynn
+Ꟗ	latin capital letter middle scots s
+ꟗ	latin small letter middle scots s
+Ꟙ	latin capital letter sigmoid s
+ꟙ	latin small letter sigmoid s
+ꟲ	modifier letter capital c
+ꟳ	modifier letter capital f
+ꟴ	modifier letter capital q
+Ꟶ	latin capital letter reversed half h
+ꟶ	latin small letter reversed half h
 ꟷ	latin epigraphic letter sideways i
 ꟸ	modifier letter capital h with stroke
 ꟹ	modifier letter small ligature oe
@@ -14110,6 +14246,7 @@ z	latin small letter z
 ꠩	syloti nagri poetry mark-2
 ꠪	syloti nagri poetry mark-3
 ꠫	syloti nagri poetry mark-4
+꠬	syloti nagri sign alternate hasanta
 ꠰	north indic fraction one quarter
 ꠱	north indic fraction one half
 ꠲	north indic fraction three quarters
@@ -14824,6 +14961,10 @@ z	latin small letter z
 ꭥ	greek letter small capital omega
 ꭦ	latin small letter dz digraph with retroflex hook
 ꭧ	latin small letter ts digraph with retroflex hook
+ꭨ	latin small letter turned r with middle tilde
+ꭩ	modifier letter small turned w
+꭪	modifier letter left tack
+꭫	modifier letter right tack
 ꭰ	cherokee small letter a
 ꭱ	cherokee small letter e
 ꭲ	cherokee small letter i
@@ -15676,6 +15817,7 @@ z	latin small letter z
 ﮿	arabic symbol ring
 ﯀	arabic symbol small tah above
 ﯁	arabic symbol small tah below
+﯂	arabic symbol wasla above
 ﯓ	arabic letter ng isolated form
 ﯔ	arabic letter ng final form
 ﯕ	arabic letter ng initial form
@@ -16041,6 +16183,22 @@ z	latin small letter z
 ﴽ	arabic ligature alef with fathatan isolated form
 ﴾	ornate left parenthesis
 ﴿	ornate right parenthesis
+﵀	arabic ligature rahimahu allaah
+﵁	arabic ligature radi allaahu anh
+﵂	arabic ligature radi allaahu anhaa
+﵃	arabic ligature radi allaahu anhum
+﵄	arabic ligature radi allaahu anhumaa
+﵅	arabic ligature radi allaahu anhunna
+﵆	arabic ligature sallallaahu alayhi wa-aalih
+﵇	arabic ligature alayhi as-salaam
+﵈	arabic ligature alayhim as-salaam
+﵉	arabic ligature alayhimaa as-salaam
+﵊	arabic ligature alayhi as-salaatu was-salaam
+﵋	arabic ligature quddisa sirrah
+﵌	arabic ligature sallallahu alayhi waaalihee wa-sallam
+﵍	arabic ligature alayhaa as-salaam
+﵎	arabic ligature tabaaraka wa-taaalaa
+﵏	arabic ligature rahimahum allaah
 ﵐ	arabic ligature teh with jeem with meem initial form
 ﵑ	arabic ligature teh with hah with jeem final form
 ﵒ	arabic ligature teh with hah with jeem initial form
@@ -16159,6 +16317,7 @@ z	latin small letter z
 ﷅ	arabic ligature sad with meem with meem initial form
 ﷆ	arabic ligature seen with khah with yeh final form
 ﷇ	arabic ligature noon with jeem with yeh final form
+﷏	arabic ligature salaamuhu alaynaa
 ﷰ	arabic ligature salla used as koranic stop sign isolated form
 ﷱ	arabic ligature qala used as koranic stop sign isolated form
 ﷲ	arabic ligature allah isolated form
@@ -16173,6 +16332,8 @@ z	latin small letter z
 ﷻ	arabic ligature jallajalalouhou
 ﷼	rial sign
 ﷽	arabic ligature bismillah ar-rahman ar-raheem
+﷾	arabic ligature subhaanahu wa taaalaa
+﷿	arabic ligature azza wa jall
 ︀	variation selector-1
 ︁	variation selector-2
 ︂	variation selector-3
@@ -17003,6 +17164,7 @@ z	latin small letter z
 𐆙	roman dupondius sign
 𐆚	roman as sign
 𐆛	roman centurial sign
+𐆜	ascia symbol
 𐆠	greek symbol tau rho
 𐇐	phaistos disc sign pedestrian
 𐇑	phaistos disc sign plumed head
@@ -17679,6 +17841,76 @@ z	latin small letter z
 𐕢	caucasian albanian letter piwr
 𐕣	caucasian albanian letter kiw
 𐕯	caucasian albanian citation mark
+𐕰	vithkuqi capital letter a
+𐕱	vithkuqi capital letter bbe
+𐕲	vithkuqi capital letter be
+𐕳	vithkuqi capital letter ce
+𐕴	vithkuqi capital letter che
+𐕵	vithkuqi capital letter de
+𐕶	vithkuqi capital letter dhe
+𐕷	vithkuqi capital letter ei
+𐕸	vithkuqi capital letter e
+𐕹	vithkuqi capital letter fe
+𐕺	vithkuqi capital letter ga
+𐕼	vithkuqi capital letter ha
+𐕽	vithkuqi capital letter hha
+𐕾	vithkuqi capital letter i
+𐕿	vithkuqi capital letter ije
+𐖀	vithkuqi capital letter je
+𐖁	vithkuqi capital letter ka
+𐖂	vithkuqi capital letter la
+𐖃	vithkuqi capital letter lla
+𐖄	vithkuqi capital letter me
+𐖅	vithkuqi capital letter ne
+𐖆	vithkuqi capital letter nje
+𐖇	vithkuqi capital letter o
+𐖈	vithkuqi capital letter pe
+𐖉	vithkuqi capital letter qa
+𐖊	vithkuqi capital letter re
+𐖌	vithkuqi capital letter se
+𐖍	vithkuqi capital letter she
+𐖎	vithkuqi capital letter te
+𐖏	vithkuqi capital letter the
+𐖐	vithkuqi capital letter u
+𐖑	vithkuqi capital letter ve
+𐖒	vithkuqi capital letter xe
+𐖔	vithkuqi capital letter y
+𐖕	vithkuqi capital letter ze
+𐖗	vithkuqi small letter a
+𐖘	vithkuqi small letter bbe
+𐖙	vithkuqi small letter be
+𐖚	vithkuqi small letter ce
+𐖛	vithkuqi small letter che
+𐖜	vithkuqi small letter de
+𐖝	vithkuqi small letter dhe
+𐖞	vithkuqi small letter ei
+𐖟	vithkuqi small letter e
+𐖠	vithkuqi small letter fe
+𐖡	vithkuqi small letter ga
+𐖣	vithkuqi small letter ha
+𐖤	vithkuqi small letter hha
+𐖥	vithkuqi small letter i
+𐖦	vithkuqi small letter ije
+𐖧	vithkuqi small letter je
+𐖨	vithkuqi small letter ka
+𐖩	vithkuqi small letter la
+𐖪	vithkuqi small letter lla
+𐖫	vithkuqi small letter me
+𐖬	vithkuqi small letter ne
+𐖭	vithkuqi small letter nje
+𐖮	vithkuqi small letter o
+𐖯	vithkuqi small letter pe
+𐖰	vithkuqi small letter qa
+𐖱	vithkuqi small letter re
+𐖳	vithkuqi small letter se
+𐖴	vithkuqi small letter she
+𐖵	vithkuqi small letter te
+𐖶	vithkuqi small letter the
+𐖷	vithkuqi small letter u
+𐖸	vithkuqi small letter ve
+𐖹	vithkuqi small letter xe
+𐖻	vithkuqi small letter y
+𐖼	vithkuqi small letter ze
 𐘀	linear a sign ab001
 𐘁	linear a sign ab002
 𐘂	linear a sign ab003
@@ -18020,6 +18252,63 @@ z	latin small letter z
 𐝥	linear a sign a805
 𐝦	linear a sign a806
 𐝧	linear a sign a807
+𐞀	modifier letter small capital aa
+𐞁	modifier letter superscript triangular colon
+𐞂	modifier letter superscript half triangular colon
+𐞃	modifier letter small ae
+𐞄	modifier letter small capital b
+𐞅	modifier letter small b with hook
+𐞇	modifier letter small dz digraph
+𐞈	modifier letter small dz digraph with retroflex hook
+𐞉	modifier letter small dz digraph with curl
+𐞊	modifier letter small dezh digraph
+𐞋	modifier letter small d with tail
+𐞌	modifier letter small d with hook
+𐞍	modifier letter small d with hook and tail
+𐞎	modifier letter small reversed e
+𐞏	modifier letter small closed reversed open e
+𐞐	modifier letter small feng digraph
+𐞑	modifier letter small rams horn
+𐞒	modifier letter small capital g
+𐞓	modifier letter small g with hook
+𐞔	modifier letter small capital g with hook
+𐞕	modifier letter small h with stroke
+𐞖	modifier letter small capital h
+𐞗	modifier letter small heng with hook
+𐞘	modifier letter small dotless j with stroke and hook
+𐞙	modifier letter small ls digraph
+𐞚	modifier letter small lz digraph
+𐞛	modifier letter small l with belt
+𐞜	modifier letter small capital l with belt
+𐞝	modifier letter small l with retroflex hook and belt
+𐞞	modifier letter small lezh
+𐞟	modifier letter small lezh with retroflex hook
+𐞠	modifier letter small turned y
+𐞡	modifier letter small turned y with belt
+𐞢	modifier letter small o with stroke
+𐞣	modifier letter small capital oe
+𐞤	modifier letter small closed omega
+𐞥	modifier letter small q
+𐞦	modifier letter small turned r with long leg
+𐞧	modifier letter small turned r with long leg and retroflex hook
+𐞨	modifier letter small r with tail
+𐞩	modifier letter small r with fishhook
+𐞪	modifier letter small capital r
+𐞫	modifier letter small tc digraph with curl
+𐞬	modifier letter small ts digraph
+𐞭	modifier letter small ts digraph with retroflex hook
+𐞮	modifier letter small tesh digraph
+𐞯	modifier letter small t with retroflex hook
+𐞰	modifier letter small v with right hook
+𐞲	modifier letter small capital y
+𐞳	modifier letter glottal stop with stroke
+𐞴	modifier letter reversed glottal stop with stroke
+𐞵	modifier letter bilabial click
+𐞶	modifier letter dental click
+𐞷	modifier letter lateral click
+𐞸	modifier letter alveolar click
+𐞹	modifier letter retroflex click with retroflex hook
+𐞺	modifier letter small s with curl
 𐠀	cypriot syllable a
 𐠁	cypriot syllable e
 𐠂	cypriot syllable i
@@ -18974,6 +19263,53 @@ z	latin small letter z
 𐹼	rumi fraction one quarter
 𐹽	rumi fraction one third
 𐹾	rumi fraction two thirds
+𐺀	yezidi letter elif
+𐺁	yezidi letter be
+𐺂	yezidi letter pe
+𐺃	yezidi letter phe
+𐺄	yezidi letter the
+𐺅	yezidi letter se
+𐺆	yezidi letter cim
+𐺇	yezidi letter chim
+𐺈	yezidi letter chhim
+𐺉	yezidi letter hha
+𐺊	yezidi letter xa
+𐺋	yezidi letter dal
+𐺌	yezidi letter zal
+𐺍	yezidi letter ra
+𐺎	yezidi letter rha
+𐺏	yezidi letter za
+𐺐	yezidi letter ja
+𐺑	yezidi letter sin
+𐺒	yezidi letter shin
+𐺓	yezidi letter sad
+𐺔	yezidi letter dad
+𐺕	yezidi letter ta
+𐺖	yezidi letter ze
+𐺗	yezidi letter eyn
+𐺘	yezidi letter xheyn
+𐺙	yezidi letter fa
+𐺚	yezidi letter va
+𐺛	yezidi letter va alternate form
+𐺜	yezidi letter qaf
+𐺝	yezidi letter kaf
+𐺞	yezidi letter khaf
+𐺟	yezidi letter gaf
+𐺠	yezidi letter lam
+𐺡	yezidi letter mim
+𐺢	yezidi letter nun
+𐺣	yezidi letter um
+𐺤	yezidi letter waw
+𐺥	yezidi letter ow
+𐺦	yezidi letter ew
+𐺧	yezidi letter hay
+𐺨	yezidi letter yot
+𐺩	yezidi letter et
+𐺫	yezidi combining hamza mark
+𐺬	yezidi combining madda mark
+𐺭	yezidi hyphenation mark
+𐺰	yezidi letter lam with dot above
+𐺱	yezidi letter yot with circumflex above
 𐼀	old sogdian letter aleph
 𐼁	old sogdian letter final aleph
 𐼂	old sogdian letter beth
@@ -19056,6 +19392,60 @@ z	latin small letter z
 𐽗	sogdian punctuation circle with dot
 𐽘	sogdian punctuation two circles with dots
 𐽙	sogdian punctuation half circle with dot
+𐽰	old uyghur letter aleph
+𐽱	old uyghur letter beth
+𐽲	old uyghur letter gimel-heth
+𐽳	old uyghur letter waw
+𐽴	old uyghur letter zayin
+𐽵	old uyghur letter final heth
+𐽶	old uyghur letter yodh
+𐽷	old uyghur letter kaph
+𐽸	old uyghur letter lamedh
+𐽹	old uyghur letter mem
+𐽺	old uyghur letter nun
+𐽻	old uyghur letter samekh
+𐽼	old uyghur letter pe
+𐽽	old uyghur letter sadhe
+𐽾	old uyghur letter resh
+𐽿	old uyghur letter shin
+𐾀	old uyghur letter taw
+𐾁	old uyghur letter lesh
+𐾂	old uyghur combining dot above
+𐾃	old uyghur combining dot below
+𐾄	old uyghur combining two dots above
+𐾅	old uyghur combining two dots below
+𐾆	old uyghur punctuation bar
+𐾇	old uyghur punctuation two bars
+𐾈	old uyghur punctuation two dots
+𐾉	old uyghur punctuation four dots
+𐾰	chorasmian letter aleph
+𐾱	chorasmian letter small aleph
+𐾲	chorasmian letter beth
+𐾳	chorasmian letter gimel
+𐾴	chorasmian letter daleth
+𐾵	chorasmian letter he
+𐾶	chorasmian letter waw
+𐾷	chorasmian letter curled waw
+𐾸	chorasmian letter zayin
+𐾹	chorasmian letter heth
+𐾺	chorasmian letter yodh
+𐾻	chorasmian letter kaph
+𐾼	chorasmian letter lamedh
+𐾽	chorasmian letter mem
+𐾾	chorasmian letter nun
+𐾿	chorasmian letter samekh
+𐿀	chorasmian letter ayin
+𐿁	chorasmian letter pe
+𐿂	chorasmian letter resh
+𐿃	chorasmian letter shin
+𐿄	chorasmian letter taw
+𐿅	chorasmian number one
+𐿆	chorasmian number two
+𐿇	chorasmian number three
+𐿈	chorasmian number four
+𐿉	chorasmian number ten
+𐿊	chorasmian number twenty
+𐿋	chorasmian number one hundred
 𐿠	elymaic letter aleph
 𐿡	elymaic letter beth
 𐿢	elymaic letter gimel
@@ -19187,6 +19577,12 @@ z	latin small letter z
 𑁭	brahmi digit seven
 𑁮	brahmi digit eight
 𑁯	brahmi digit nine
+𑁰	brahmi sign old tamil virama
+𑁱	brahmi letter old tamil short e
+𑁲	brahmi letter old tamil short o
+𑁳	brahmi vowel sign old tamil short e
+𑁴	brahmi vowel sign old tamil short o
+𑁵	brahmi letter old tamil lla
 𑁿	brahmi number joiner
 𑂀	kaithi sign candrabindu
 𑂁	kaithi sign anusvara
@@ -19254,6 +19650,7 @@ z	latin small letter z
 𑂿	kaithi double section mark
 𑃀	kaithi danda
 𑃁	kaithi double danda
+𑃂	kaithi vowel sign vocalic r
 𑃍	kaithi number sign above
 𑃐	sora sompeng letter sah
 𑃑	sora sompeng letter tah
@@ -19360,6 +19757,7 @@ z	latin small letter z
 𑅄	chakma letter lhaa
 𑅅	chakma vowel sign aa
 𑅆	chakma vowel sign ei
+𑅇	chakma letter vaa
 𑅐	mahajani letter a
 𑅑	mahajani letter i
 𑅒	mahajani letter u
@@ -19477,6 +19875,8 @@ z	latin small letter z
 𑇋	sharada vowel modifier mark
 𑇌	sharada extra short vowel mark
 𑇍	sharada sutra mark
+𑇎	sharada vowel sign prishthamatra e
+𑇏	sharada sign inverted candrabindu
 𑇐	sharada digit zero
 𑇑	sharada digit one
 𑇒	sharada digit two
@@ -19858,10 +20258,13 @@ z	latin small letter z
 𑑗	newa digit seven
 𑑘	newa digit eight
 𑑙	newa digit nine
+𑑚	newa double comma
 𑑛	newa placeholder mark
 𑑝	newa insertion sign
 𑑞	newa sandhi mark
 𑑟	newa letter vedic anusvara
+𑑠	newa sign jihvamuliya
+𑑡	newa sign upadhmaniya
 𑒀	tirhuta anji
 𑒁	tirhuta letter a
 𑒂	tirhuta letter aa
@@ -20185,6 +20588,7 @@ z	latin small letter z
 𑚶	takri sign virama
 𑚷	takri sign nukta
 𑚸	takri letter archaic kha
+𑚹	takri abbreviation sign
 𑛀	takri digit zero
 𑛁	takri digit one
 𑛂	takri digit two
@@ -20253,6 +20657,13 @@ z	latin small letter z
 𑜽	ahom sign section
 𑜾	ahom sign rulai
 𑜿	ahom symbol vi
+𑝀	ahom letter ca
+𑝁	ahom letter tta
+𑝂	ahom letter ttha
+𑝃	ahom letter dda
+𑝄	ahom letter ddha
+𑝅	ahom letter nna
+𑝆	ahom letter lla
 𑠀	dogra letter a
 𑠁	dogra letter aa
 𑠂	dogra letter i
@@ -20397,6 +20808,78 @@ z	latin small letter z
 𑣱	warang citi number eighty
 𑣲	warang citi number ninety
 𑣿	warang citi om
+𑤀	dives akuru letter a
+𑤁	dives akuru letter aa
+𑤂	dives akuru letter i
+𑤃	dives akuru letter ii
+𑤄	dives akuru letter u
+𑤅	dives akuru letter uu
+𑤆	dives akuru letter e
+𑤉	dives akuru letter o
+𑤌	dives akuru letter ka
+𑤍	dives akuru letter kha
+𑤎	dives akuru letter ga
+𑤏	dives akuru letter gha
+𑤐	dives akuru letter nga
+𑤑	dives akuru letter ca
+𑤒	dives akuru letter cha
+𑤓	dives akuru letter ja
+𑤕	dives akuru letter nya
+𑤖	dives akuru letter tta
+𑤘	dives akuru letter dda
+𑤙	dives akuru letter ddha
+𑤚	dives akuru letter nna
+𑤛	dives akuru letter ta
+𑤜	dives akuru letter tha
+𑤝	dives akuru letter da
+𑤞	dives akuru letter dha
+𑤟	dives akuru letter na
+𑤠	dives akuru letter pa
+𑤡	dives akuru letter pha
+𑤢	dives akuru letter ba
+𑤣	dives akuru letter bha
+𑤤	dives akuru letter ma
+𑤥	dives akuru letter ya
+𑤦	dives akuru letter yya
+𑤧	dives akuru letter ra
+𑤨	dives akuru letter la
+𑤩	dives akuru letter va
+𑤪	dives akuru letter sha
+𑤫	dives akuru letter ssa
+𑤬	dives akuru letter sa
+𑤭	dives akuru letter ha
+𑤮	dives akuru letter lla
+𑤯	dives akuru letter za
+𑤰	dives akuru vowel sign aa
+𑤱	dives akuru vowel sign i
+𑤲	dives akuru vowel sign ii
+𑤳	dives akuru vowel sign u
+𑤴	dives akuru vowel sign uu
+𑤵	dives akuru vowel sign e
+𑤷	dives akuru vowel sign ai
+𑤸	dives akuru vowel sign o
+𑤻	dives akuru sign anusvara
+𑤼	dives akuru sign candrabindu
+𑤽	dives akuru sign halanta
+𑤾	dives akuru virama
+𑤿	dives akuru prefixed nasal sign
+𑥀	dives akuru medial ya
+𑥁	dives akuru initial ra
+𑥂	dives akuru medial ra
+𑥃	dives akuru sign nukta
+𑥄	dives akuru double danda
+𑥅	dives akuru gap filler
+𑥆	dives akuru end of text mark
+𑥐	dives akuru digit zero
+𑥑	dives akuru digit one
+𑥒	dives akuru digit two
+𑥓	dives akuru digit three
+𑥔	dives akuru digit four
+𑥕	dives akuru digit five
+𑥖	dives akuru digit six
+𑥗	dives akuru digit seven
+𑥘	dives akuru digit eight
+𑥙	dives akuru digit nine
 𑦠	nandinagari letter a
 𑦡	nandinagari letter aa
 𑦢	nandinagari letter i
@@ -20617,6 +21100,22 @@ z	latin small letter z
 𑪠	soyombo head mark with moon and sun
 𑪡	soyombo terminal mark-1
 𑪢	soyombo terminal mark-2
+𑪰	canadian syllabics nattilik hi
+𑪱	canadian syllabics nattilik hii
+𑪲	canadian syllabics nattilik ho
+𑪳	canadian syllabics nattilik hoo
+𑪴	canadian syllabics nattilik ha
+𑪵	canadian syllabics nattilik haa
+𑪶	canadian syllabics nattilik shri
+𑪷	canadian syllabics nattilik shrii
+𑪸	canadian syllabics nattilik shro
+𑪹	canadian syllabics nattilik shroo
+𑪺	canadian syllabics nattilik shra
+𑪻	canadian syllabics nattilik shraa
+𑪼	canadian syllabics spe
+𑪽	canadian syllabics spi
+𑪾	canadian syllabics spo
+𑪿	canadian syllabics spa
 𑫀	pau cin hau letter pa
 𑫁	pau cin hau letter ka
 𑫂	pau cin hau letter la
@@ -21002,6 +21501,7 @@ z	latin small letter z
 𑻶	makasar vowel sign o
 𑻷	makasar passimbang
 𑻸	makasar end of section
+𑾰	lisu letter yha
 𑿀	tamil fraction one three-hundred-and-twentieth
 𑿁	tamil fraction one one-hundred-and-sixtieth
 𑿂	tamil fraction one eightieth
@@ -22287,6 +22787,105 @@ z	latin small letter z
 𒕁	cuneiform sign za7
 𒕂	cuneiform sign zu over zu plus sar
 𒕃	cuneiform sign zu5 times three dish tenu
+𒾐	cypro-minoan sign cm001
+𒾑	cypro-minoan sign cm002
+𒾒	cypro-minoan sign cm004
+𒾓	cypro-minoan sign cm005
+𒾔	cypro-minoan sign cm006
+𒾕	cypro-minoan sign cm007
+𒾖	cypro-minoan sign cm008
+𒾗	cypro-minoan sign cm009
+𒾘	cypro-minoan sign cm010
+𒾙	cypro-minoan sign cm011
+𒾚	cypro-minoan sign cm012
+𒾛	cypro-minoan sign cm012b
+𒾜	cypro-minoan sign cm013
+𒾝	cypro-minoan sign cm015
+𒾞	cypro-minoan sign cm017
+𒾟	cypro-minoan sign cm019
+𒾠	cypro-minoan sign cm021
+𒾡	cypro-minoan sign cm023
+𒾢	cypro-minoan sign cm024
+𒾣	cypro-minoan sign cm025
+𒾤	cypro-minoan sign cm026
+𒾥	cypro-minoan sign cm027
+𒾦	cypro-minoan sign cm028
+𒾧	cypro-minoan sign cm029
+𒾨	cypro-minoan sign cm030
+𒾩	cypro-minoan sign cm033
+𒾪	cypro-minoan sign cm034
+𒾫	cypro-minoan sign cm035
+𒾬	cypro-minoan sign cm036
+𒾭	cypro-minoan sign cm037
+𒾮	cypro-minoan sign cm038
+𒾯	cypro-minoan sign cm039
+𒾰	cypro-minoan sign cm040
+𒾱	cypro-minoan sign cm041
+𒾲	cypro-minoan sign cm044
+𒾳	cypro-minoan sign cm046
+𒾴	cypro-minoan sign cm047
+𒾵	cypro-minoan sign cm049
+𒾶	cypro-minoan sign cm050
+𒾷	cypro-minoan sign cm051
+𒾸	cypro-minoan sign cm052
+𒾹	cypro-minoan sign cm053
+𒾺	cypro-minoan sign cm054
+𒾻	cypro-minoan sign cm055
+𒾼	cypro-minoan sign cm056
+𒾽	cypro-minoan sign cm058
+𒾾	cypro-minoan sign cm059
+𒾿	cypro-minoan sign cm060
+𒿀	cypro-minoan sign cm061
+𒿁	cypro-minoan sign cm062
+𒿂	cypro-minoan sign cm063
+𒿃	cypro-minoan sign cm064
+𒿄	cypro-minoan sign cm066
+𒿅	cypro-minoan sign cm067
+𒿆	cypro-minoan sign cm068
+𒿇	cypro-minoan sign cm069
+𒿈	cypro-minoan sign cm070
+𒿉	cypro-minoan sign cm071
+𒿊	cypro-minoan sign cm072
+𒿋	cypro-minoan sign cm073
+𒿌	cypro-minoan sign cm074
+𒿍	cypro-minoan sign cm075
+𒿎	cypro-minoan sign cm075b
+𒿏	cypro-minoan sign cm076
+𒿐	cypro-minoan sign cm078
+𒿑	cypro-minoan sign cm079
+𒿒	cypro-minoan sign cm080
+𒿓	cypro-minoan sign cm081
+𒿔	cypro-minoan sign cm082
+𒿕	cypro-minoan sign cm083
+𒿖	cypro-minoan sign cm084
+𒿗	cypro-minoan sign cm085
+𒿘	cypro-minoan sign cm086
+𒿙	cypro-minoan sign cm087
+𒿚	cypro-minoan sign cm088
+𒿛	cypro-minoan sign cm089
+𒿜	cypro-minoan sign cm090
+𒿝	cypro-minoan sign cm091
+𒿞	cypro-minoan sign cm092
+𒿟	cypro-minoan sign cm094
+𒿠	cypro-minoan sign cm095
+𒿡	cypro-minoan sign cm096
+𒿢	cypro-minoan sign cm097
+𒿣	cypro-minoan sign cm098
+𒿤	cypro-minoan sign cm099
+𒿥	cypro-minoan sign cm100
+𒿦	cypro-minoan sign cm101
+𒿧	cypro-minoan sign cm102
+𒿨	cypro-minoan sign cm103
+𒿩	cypro-minoan sign cm104
+𒿪	cypro-minoan sign cm105
+𒿫	cypro-minoan sign cm107
+𒿬	cypro-minoan sign cm108
+𒿭	cypro-minoan sign cm109
+𒿮	cypro-minoan sign cm110
+𒿯	cypro-minoan sign cm112
+𒿰	cypro-minoan sign cm114
+𒿱	cypro-minoan sign cm301
+𒿲	cypro-minoan sign cm302
 𓀀	egyptian hieroglyph a001
 𓀁	egyptian hieroglyph a002
 𓀂	egyptian hieroglyph a003
@@ -24562,6 +25161,95 @@ z	latin small letter z
 𖩩	mro digit nine
 𖩮	mro danda
 𖩯	mro double danda
+𖩰	tangsa letter oz
+𖩱	tangsa letter oc
+𖩲	tangsa letter oq
+𖩳	tangsa letter ox
+𖩴	tangsa letter az
+𖩵	tangsa letter ac
+𖩶	tangsa letter aq
+𖩷	tangsa letter ax
+𖩸	tangsa letter vz
+𖩹	tangsa letter vc
+𖩺	tangsa letter vq
+𖩻	tangsa letter vx
+𖩼	tangsa letter ez
+𖩽	tangsa letter ec
+𖩾	tangsa letter eq
+𖩿	tangsa letter ex
+𖪀	tangsa letter iz
+𖪁	tangsa letter ic
+𖪂	tangsa letter iq
+𖪃	tangsa letter ix
+𖪄	tangsa letter uz
+𖪅	tangsa letter uc
+𖪆	tangsa letter uq
+𖪇	tangsa letter ux
+𖪈	tangsa letter awz
+𖪉	tangsa letter awc
+𖪊	tangsa letter awq
+𖪋	tangsa letter awx
+𖪌	tangsa letter uiz
+𖪍	tangsa letter uic
+𖪎	tangsa letter uiq
+𖪏	tangsa letter uix
+𖪐	tangsa letter final ng
+𖪑	tangsa letter long uex
+𖪒	tangsa letter short uez
+𖪓	tangsa letter short awx
+𖪔	tangsa letter uec
+𖪕	tangsa letter uez
+𖪖	tangsa letter ueq
+𖪗	tangsa letter uex
+𖪘	tangsa letter uiuz
+𖪙	tangsa letter uiuc
+𖪚	tangsa letter uiuq
+𖪛	tangsa letter uiux
+𖪜	tangsa letter mz
+𖪝	tangsa letter mc
+𖪞	tangsa letter mq
+𖪟	tangsa letter mx
+𖪠	tangsa letter ka
+𖪡	tangsa letter kha
+𖪢	tangsa letter ga
+𖪣	tangsa letter nga
+𖪤	tangsa letter sa
+𖪥	tangsa letter ya
+𖪦	tangsa letter wa
+𖪧	tangsa letter pa
+𖪨	tangsa letter nya
+𖪩	tangsa letter pha
+𖪪	tangsa letter ba
+𖪫	tangsa letter ma
+𖪬	tangsa letter na
+𖪭	tangsa letter ha
+𖪮	tangsa letter la
+𖪯	tangsa letter hta
+𖪰	tangsa letter ta
+𖪱	tangsa letter da
+𖪲	tangsa letter ra
+𖪳	tangsa letter nha
+𖪴	tangsa letter sha
+𖪵	tangsa letter ca
+𖪶	tangsa letter tsa
+𖪷	tangsa letter gha
+𖪸	tangsa letter htta
+𖪹	tangsa letter tha
+𖪺	tangsa letter xa
+𖪻	tangsa letter fa
+𖪼	tangsa letter dha
+𖪽	tangsa letter cha
+𖪾	tangsa letter za
+𖫀	tangsa digit zero
+𖫁	tangsa digit one
+𖫂	tangsa digit two
+𖫃	tangsa digit three
+𖫄	tangsa digit four
+𖫅	tangsa digit five
+𖫆	tangsa digit six
+𖫇	tangsa digit seven
+𖫈	tangsa digit eight
+𖫉	tangsa digit nine
 𖫐	bassa vah letter enni
 𖫑	bassa vah letter ka
 𖫒	bassa vah letter se
@@ -24969,6 +25657,9 @@ z	latin small letter z
 𖿡	nushu iteration mark
 𖿢	old chinese hook mark
 𖿣	old chinese iteration mark
+𖿤	khitan small script filler
+𖿰	vietnamese alternate reading mark ca
+𖿱	vietnamese alternate reading mark nhay
 𘠀	tangut component-001
 𘠁	tangut component-002
 𘠂	tangut component-003
@@ -25724,6 +26415,502 @@ z	latin small letter z
 𘫰	tangut component-753
 𘫱	tangut component-754
 𘫲	tangut component-755
+𘫳	tangut component-756
+𘫴	tangut component-757
+𘫵	tangut component-758
+𘫶	tangut component-759
+𘫷	tangut component-760
+𘫸	tangut component-761
+𘫹	tangut component-762
+𘫺	tangut component-763
+𘫻	tangut component-764
+𘫼	tangut component-765
+𘫽	tangut component-766
+𘫾	tangut component-767
+𘫿	tangut component-768
+𘬀	khitan small script character-18b00
+𘬁	khitan small script character-18b01
+𘬂	khitan small script character-18b02
+𘬃	khitan small script character-18b03
+𘬄	khitan small script character-18b04
+𘬅	khitan small script character-18b05
+𘬆	khitan small script character-18b06
+𘬇	khitan small script character-18b07
+𘬈	khitan small script character-18b08
+𘬉	khitan small script character-18b09
+𘬊	khitan small script character-18b0a
+𘬋	khitan small script character-18b0b
+𘬌	khitan small script character-18b0c
+𘬍	khitan small script character-18b0d
+𘬎	khitan small script character-18b0e
+𘬏	khitan small script character-18b0f
+𘬐	khitan small script character-18b10
+𘬑	khitan small script character-18b11
+𘬒	khitan small script character-18b12
+𘬓	khitan small script character-18b13
+𘬔	khitan small script character-18b14
+𘬕	khitan small script character-18b15
+𘬖	khitan small script character-18b16
+𘬗	khitan small script character-18b17
+𘬘	khitan small script character-18b18
+𘬙	khitan small script character-18b19
+𘬚	khitan small script character-18b1a
+𘬛	khitan small script character-18b1b
+𘬜	khitan small script character-18b1c
+𘬝	khitan small script character-18b1d
+𘬞	khitan small script character-18b1e
+𘬟	khitan small script character-18b1f
+𘬠	khitan small script character-18b20
+𘬡	khitan small script character-18b21
+𘬢	khitan small script character-18b22
+𘬣	khitan small script character-18b23
+𘬤	khitan small script character-18b24
+𘬥	khitan small script character-18b25
+𘬦	khitan small script character-18b26
+𘬧	khitan small script character-18b27
+𘬨	khitan small script character-18b28
+𘬩	khitan small script character-18b29
+𘬪	khitan small script character-18b2a
+𘬫	khitan small script character-18b2b
+𘬬	khitan small script character-18b2c
+𘬭	khitan small script character-18b2d
+𘬮	khitan small script character-18b2e
+𘬯	khitan small script character-18b2f
+𘬰	khitan small script character-18b30
+𘬱	khitan small script character-18b31
+𘬲	khitan small script character-18b32
+𘬳	khitan small script character-18b33
+𘬴	khitan small script character-18b34
+𘬵	khitan small script character-18b35
+𘬶	khitan small script character-18b36
+𘬷	khitan small script character-18b37
+𘬸	khitan small script character-18b38
+𘬹	khitan small script character-18b39
+𘬺	khitan small script character-18b3a
+𘬻	khitan small script character-18b3b
+𘬼	khitan small script character-18b3c
+𘬽	khitan small script character-18b3d
+𘬾	khitan small script character-18b3e
+𘬿	khitan small script character-18b3f
+𘭀	khitan small script character-18b40
+𘭁	khitan small script character-18b41
+𘭂	khitan small script character-18b42
+𘭃	khitan small script character-18b43
+𘭄	khitan small script character-18b44
+𘭅	khitan small script character-18b45
+𘭆	khitan small script character-18b46
+𘭇	khitan small script character-18b47
+𘭈	khitan small script character-18b48
+𘭉	khitan small script character-18b49
+𘭊	khitan small script character-18b4a
+𘭋	khitan small script character-18b4b
+𘭌	khitan small script character-18b4c
+𘭍	khitan small script character-18b4d
+𘭎	khitan small script character-18b4e
+𘭏	khitan small script character-18b4f
+𘭐	khitan small script character-18b50
+𘭑	khitan small script character-18b51
+𘭒	khitan small script character-18b52
+𘭓	khitan small script character-18b53
+𘭔	khitan small script character-18b54
+𘭕	khitan small script character-18b55
+𘭖	khitan small script character-18b56
+𘭗	khitan small script character-18b57
+𘭘	khitan small script character-18b58
+𘭙	khitan small script character-18b59
+𘭚	khitan small script character-18b5a
+𘭛	khitan small script character-18b5b
+𘭜	khitan small script character-18b5c
+𘭝	khitan small script character-18b5d
+𘭞	khitan small script character-18b5e
+𘭟	khitan small script character-18b5f
+𘭠	khitan small script character-18b60
+𘭡	khitan small script character-18b61
+𘭢	khitan small script character-18b62
+𘭣	khitan small script character-18b63
+𘭤	khitan small script character-18b64
+𘭥	khitan small script character-18b65
+𘭦	khitan small script character-18b66
+𘭧	khitan small script character-18b67
+𘭨	khitan small script character-18b68
+𘭩	khitan small script character-18b69
+𘭪	khitan small script character-18b6a
+𘭫	khitan small script character-18b6b
+𘭬	khitan small script character-18b6c
+𘭭	khitan small script character-18b6d
+𘭮	khitan small script character-18b6e
+𘭯	khitan small script character-18b6f
+𘭰	khitan small script character-18b70
+𘭱	khitan small script character-18b71
+𘭲	khitan small script character-18b72
+𘭳	khitan small script character-18b73
+𘭴	khitan small script character-18b74
+𘭵	khitan small script character-18b75
+𘭶	khitan small script character-18b76
+𘭷	khitan small script character-18b77
+𘭸	khitan small script character-18b78
+𘭹	khitan small script character-18b79
+𘭺	khitan small script character-18b7a
+𘭻	khitan small script character-18b7b
+𘭼	khitan small script character-18b7c
+𘭽	khitan small script character-18b7d
+𘭾	khitan small script character-18b7e
+𘭿	khitan small script character-18b7f
+𘮀	khitan small script character-18b80
+𘮁	khitan small script character-18b81
+𘮂	khitan small script character-18b82
+𘮃	khitan small script character-18b83
+𘮄	khitan small script character-18b84
+𘮅	khitan small script character-18b85
+𘮆	khitan small script character-18b86
+𘮇	khitan small script character-18b87
+𘮈	khitan small script character-18b88
+𘮉	khitan small script character-18b89
+𘮊	khitan small script character-18b8a
+𘮋	khitan small script character-18b8b
+𘮌	khitan small script character-18b8c
+𘮍	khitan small script character-18b8d
+𘮎	khitan small script character-18b8e
+𘮏	khitan small script character-18b8f
+𘮐	khitan small script character-18b90
+𘮑	khitan small script character-18b91
+𘮒	khitan small script character-18b92
+𘮓	khitan small script character-18b93
+𘮔	khitan small script character-18b94
+𘮕	khitan small script character-18b95
+𘮖	khitan small script character-18b96
+𘮗	khitan small script character-18b97
+𘮘	khitan small script character-18b98
+𘮙	khitan small script character-18b99
+𘮚	khitan small script character-18b9a
+𘮛	khitan small script character-18b9b
+𘮜	khitan small script character-18b9c
+𘮝	khitan small script character-18b9d
+𘮞	khitan small script character-18b9e
+𘮟	khitan small script character-18b9f
+𘮠	khitan small script character-18ba0
+𘮡	khitan small script character-18ba1
+𘮢	khitan small script character-18ba2
+𘮣	khitan small script character-18ba3
+𘮤	khitan small script character-18ba4
+𘮥	khitan small script character-18ba5
+𘮦	khitan small script character-18ba6
+𘮧	khitan small script character-18ba7
+𘮨	khitan small script character-18ba8
+𘮩	khitan small script character-18ba9
+𘮪	khitan small script character-18baa
+𘮫	khitan small script character-18bab
+𘮬	khitan small script character-18bac
+𘮭	khitan small script character-18bad
+𘮮	khitan small script character-18bae
+𘮯	khitan small script character-18baf
+𘮰	khitan small script character-18bb0
+𘮱	khitan small script character-18bb1
+𘮲	khitan small script character-18bb2
+𘮳	khitan small script character-18bb3
+𘮴	khitan small script character-18bb4
+𘮵	khitan small script character-18bb5
+𘮶	khitan small script character-18bb6
+𘮷	khitan small script character-18bb7
+𘮸	khitan small script character-18bb8
+𘮹	khitan small script character-18bb9
+𘮺	khitan small script character-18bba
+𘮻	khitan small script character-18bbb
+𘮼	khitan small script character-18bbc
+𘮽	khitan small script character-18bbd
+𘮾	khitan small script character-18bbe
+𘮿	khitan small script character-18bbf
+𘯀	khitan small script character-18bc0
+𘯁	khitan small script character-18bc1
+𘯂	khitan small script character-18bc2
+𘯃	khitan small script character-18bc3
+𘯄	khitan small script character-18bc4
+𘯅	khitan small script character-18bc5
+𘯆	khitan small script character-18bc6
+𘯇	khitan small script character-18bc7
+𘯈	khitan small script character-18bc8
+𘯉	khitan small script character-18bc9
+𘯊	khitan small script character-18bca
+𘯋	khitan small script character-18bcb
+𘯌	khitan small script character-18bcc
+𘯍	khitan small script character-18bcd
+𘯎	khitan small script character-18bce
+𘯏	khitan small script character-18bcf
+𘯐	khitan small script character-18bd0
+𘯑	khitan small script character-18bd1
+𘯒	khitan small script character-18bd2
+𘯓	khitan small script character-18bd3
+𘯔	khitan small script character-18bd4
+𘯕	khitan small script character-18bd5
+𘯖	khitan small script character-18bd6
+𘯗	khitan small script character-18bd7
+𘯘	khitan small script character-18bd8
+𘯙	khitan small script character-18bd9
+𘯚	khitan small script character-18bda
+𘯛	khitan small script character-18bdb
+𘯜	khitan small script character-18bdc
+𘯝	khitan small script character-18bdd
+𘯞	khitan small script character-18bde
+𘯟	khitan small script character-18bdf
+𘯠	khitan small script character-18be0
+𘯡	khitan small script character-18be1
+𘯢	khitan small script character-18be2
+𘯣	khitan small script character-18be3
+𘯤	khitan small script character-18be4
+𘯥	khitan small script character-18be5
+𘯦	khitan small script character-18be6
+𘯧	khitan small script character-18be7
+𘯨	khitan small script character-18be8
+𘯩	khitan small script character-18be9
+𘯪	khitan small script character-18bea
+𘯫	khitan small script character-18beb
+𘯬	khitan small script character-18bec
+𘯭	khitan small script character-18bed
+𘯮	khitan small script character-18bee
+𘯯	khitan small script character-18bef
+𘯰	khitan small script character-18bf0
+𘯱	khitan small script character-18bf1
+𘯲	khitan small script character-18bf2
+𘯳	khitan small script character-18bf3
+𘯴	khitan small script character-18bf4
+𘯵	khitan small script character-18bf5
+𘯶	khitan small script character-18bf6
+𘯷	khitan small script character-18bf7
+𘯸	khitan small script character-18bf8
+𘯹	khitan small script character-18bf9
+𘯺	khitan small script character-18bfa
+𘯻	khitan small script character-18bfb
+𘯼	khitan small script character-18bfc
+𘯽	khitan small script character-18bfd
+𘯾	khitan small script character-18bfe
+𘯿	khitan small script character-18bff
+𘰀	khitan small script character-18c00
+𘰁	khitan small script character-18c01
+𘰂	khitan small script character-18c02
+𘰃	khitan small script character-18c03
+𘰄	khitan small script character-18c04
+𘰅	khitan small script character-18c05
+𘰆	khitan small script character-18c06
+𘰇	khitan small script character-18c07
+𘰈	khitan small script character-18c08
+𘰉	khitan small script character-18c09
+𘰊	khitan small script character-18c0a
+𘰋	khitan small script character-18c0b
+𘰌	khitan small script character-18c0c
+𘰍	khitan small script character-18c0d
+𘰎	khitan small script character-18c0e
+𘰏	khitan small script character-18c0f
+𘰐	khitan small script character-18c10
+𘰑	khitan small script character-18c11
+𘰒	khitan small script character-18c12
+𘰓	khitan small script character-18c13
+𘰔	khitan small script character-18c14
+𘰕	khitan small script character-18c15
+𘰖	khitan small script character-18c16
+𘰗	khitan small script character-18c17
+𘰘	khitan small script character-18c18
+𘰙	khitan small script character-18c19
+𘰚	khitan small script character-18c1a
+𘰛	khitan small script character-18c1b
+𘰜	khitan small script character-18c1c
+𘰝	khitan small script character-18c1d
+𘰞	khitan small script character-18c1e
+𘰟	khitan small script character-18c1f
+𘰠	khitan small script character-18c20
+𘰡	khitan small script character-18c21
+𘰢	khitan small script character-18c22
+𘰣	khitan small script character-18c23
+𘰤	khitan small script character-18c24
+𘰥	khitan small script character-18c25
+𘰦	khitan small script character-18c26
+𘰧	khitan small script character-18c27
+𘰨	khitan small script character-18c28
+𘰩	khitan small script character-18c29
+𘰪	khitan small script character-18c2a
+𘰫	khitan small script character-18c2b
+𘰬	khitan small script character-18c2c
+𘰭	khitan small script character-18c2d
+𘰮	khitan small script character-18c2e
+𘰯	khitan small script character-18c2f
+𘰰	khitan small script character-18c30
+𘰱	khitan small script character-18c31
+𘰲	khitan small script character-18c32
+𘰳	khitan small script character-18c33
+𘰴	khitan small script character-18c34
+𘰵	khitan small script character-18c35
+𘰶	khitan small script character-18c36
+𘰷	khitan small script character-18c37
+𘰸	khitan small script character-18c38
+𘰹	khitan small script character-18c39
+𘰺	khitan small script character-18c3a
+𘰻	khitan small script character-18c3b
+𘰼	khitan small script character-18c3c
+𘰽	khitan small script character-18c3d
+𘰾	khitan small script character-18c3e
+𘰿	khitan small script character-18c3f
+𘱀	khitan small script character-18c40
+𘱁	khitan small script character-18c41
+𘱂	khitan small script character-18c42
+𘱃	khitan small script character-18c43
+𘱄	khitan small script character-18c44
+𘱅	khitan small script character-18c45
+𘱆	khitan small script character-18c46
+𘱇	khitan small script character-18c47
+𘱈	khitan small script character-18c48
+𘱉	khitan small script character-18c49
+𘱊	khitan small script character-18c4a
+𘱋	khitan small script character-18c4b
+𘱌	khitan small script character-18c4c
+𘱍	khitan small script character-18c4d
+𘱎	khitan small script character-18c4e
+𘱏	khitan small script character-18c4f
+𘱐	khitan small script character-18c50
+𘱑	khitan small script character-18c51
+𘱒	khitan small script character-18c52
+𘱓	khitan small script character-18c53
+𘱔	khitan small script character-18c54
+𘱕	khitan small script character-18c55
+𘱖	khitan small script character-18c56
+𘱗	khitan small script character-18c57
+𘱘	khitan small script character-18c58
+𘱙	khitan small script character-18c59
+𘱚	khitan small script character-18c5a
+𘱛	khitan small script character-18c5b
+𘱜	khitan small script character-18c5c
+𘱝	khitan small script character-18c5d
+𘱞	khitan small script character-18c5e
+𘱟	khitan small script character-18c5f
+𘱠	khitan small script character-18c60
+𘱡	khitan small script character-18c61
+𘱢	khitan small script character-18c62
+𘱣	khitan small script character-18c63
+𘱤	khitan small script character-18c64
+𘱥	khitan small script character-18c65
+𘱦	khitan small script character-18c66
+𘱧	khitan small script character-18c67
+𘱨	khitan small script character-18c68
+𘱩	khitan small script character-18c69
+𘱪	khitan small script character-18c6a
+𘱫	khitan small script character-18c6b
+𘱬	khitan small script character-18c6c
+𘱭	khitan small script character-18c6d
+𘱮	khitan small script character-18c6e
+𘱯	khitan small script character-18c6f
+𘱰	khitan small script character-18c70
+𘱱	khitan small script character-18c71
+𘱲	khitan small script character-18c72
+𘱳	khitan small script character-18c73
+𘱴	khitan small script character-18c74
+𘱵	khitan small script character-18c75
+𘱶	khitan small script character-18c76
+𘱷	khitan small script character-18c77
+𘱸	khitan small script character-18c78
+𘱹	khitan small script character-18c79
+𘱺	khitan small script character-18c7a
+𘱻	khitan small script character-18c7b
+𘱼	khitan small script character-18c7c
+𘱽	khitan small script character-18c7d
+𘱾	khitan small script character-18c7e
+𘱿	khitan small script character-18c7f
+𘲀	khitan small script character-18c80
+𘲁	khitan small script character-18c81
+𘲂	khitan small script character-18c82
+𘲃	khitan small script character-18c83
+𘲄	khitan small script character-18c84
+𘲅	khitan small script character-18c85
+𘲆	khitan small script character-18c86
+𘲇	khitan small script character-18c87
+𘲈	khitan small script character-18c88
+𘲉	khitan small script character-18c89
+𘲊	khitan small script character-18c8a
+𘲋	khitan small script character-18c8b
+𘲌	khitan small script character-18c8c
+𘲍	khitan small script character-18c8d
+𘲎	khitan small script character-18c8e
+𘲏	khitan small script character-18c8f
+𘲐	khitan small script character-18c90
+𘲑	khitan small script character-18c91
+𘲒	khitan small script character-18c92
+𘲓	khitan small script character-18c93
+𘲔	khitan small script character-18c94
+𘲕	khitan small script character-18c95
+𘲖	khitan small script character-18c96
+𘲗	khitan small script character-18c97
+𘲘	khitan small script character-18c98
+𘲙	khitan small script character-18c99
+𘲚	khitan small script character-18c9a
+𘲛	khitan small script character-18c9b
+𘲜	khitan small script character-18c9c
+𘲝	khitan small script character-18c9d
+𘲞	khitan small script character-18c9e
+𘲟	khitan small script character-18c9f
+𘲠	khitan small script character-18ca0
+𘲡	khitan small script character-18ca1
+𘲢	khitan small script character-18ca2
+𘲣	khitan small script character-18ca3
+𘲤	khitan small script character-18ca4
+𘲥	khitan small script character-18ca5
+𘲦	khitan small script character-18ca6
+𘲧	khitan small script character-18ca7
+𘲨	khitan small script character-18ca8
+𘲩	khitan small script character-18ca9
+𘲪	khitan small script character-18caa
+𘲫	khitan small script character-18cab
+𘲬	khitan small script character-18cac
+𘲭	khitan small script character-18cad
+𘲮	khitan small script character-18cae
+𘲯	khitan small script character-18caf
+𘲰	khitan small script character-18cb0
+𘲱	khitan small script character-18cb1
+𘲲	khitan small script character-18cb2
+𘲳	khitan small script character-18cb3
+𘲴	khitan small script character-18cb4
+𘲵	khitan small script character-18cb5
+𘲶	khitan small script character-18cb6
+𘲷	khitan small script character-18cb7
+𘲸	khitan small script character-18cb8
+𘲹	khitan small script character-18cb9
+𘲺	khitan small script character-18cba
+𘲻	khitan small script character-18cbb
+𘲼	khitan small script character-18cbc
+𘲽	khitan small script character-18cbd
+𘲾	khitan small script character-18cbe
+𘲿	khitan small script character-18cbf
+𘳀	khitan small script character-18cc0
+𘳁	khitan small script character-18cc1
+𘳂	khitan small script character-18cc2
+𘳃	khitan small script character-18cc3
+𘳄	khitan small script character-18cc4
+𘳅	khitan small script character-18cc5
+𘳆	khitan small script character-18cc6
+𘳇	khitan small script character-18cc7
+𘳈	khitan small script character-18cc8
+𘳉	khitan small script character-18cc9
+𘳊	khitan small script character-18cca
+𘳋	khitan small script character-18ccb
+𘳌	khitan small script character-18ccc
+𘳍	khitan small script character-18ccd
+𘳎	khitan small script character-18cce
+𘳏	khitan small script character-18ccf
+𘳐	khitan small script character-18cd0
+𘳑	khitan small script character-18cd1
+𘳒	khitan small script character-18cd2
+𘳓	khitan small script character-18cd3
+𘳔	khitan small script character-18cd4
+𘳕	khitan small script character-18cd5
+𚿰	katakana letter minnan tone-2
+𚿱	katakana letter minnan tone-3
+𚿲	katakana letter minnan tone-4
+𚿳	katakana letter minnan tone-5
+𚿵	katakana letter minnan tone-7
+𚿶	katakana letter minnan tone-8
+𚿷	katakana letter minnan nasalized tone-1
+𚿸	katakana letter minnan nasalized tone-2
+𚿹	katakana letter minnan nasalized tone-3
+𚿺	katakana letter minnan nasalized tone-4
+𚿻	katakana letter minnan nasalized tone-5
+𚿽	katakana letter minnan nasalized tone-7
+𚿾	katakana letter minnan nasalized tone-8
 𛀀	katakana letter archaic e
 𛀁	hiragana letter archaic ye
 𛀂	hentaigana letter a-1
@@ -26011,6 +27198,10 @@ z	latin small letter z
 𛄜	hentaigana letter wo-7
 𛄝	hentaigana letter n-mu-mo-1
 𛄞	hentaigana letter n-mu-mo-2
+𛄟	hiragana letter archaic wu
+𛄠	katakana letter archaic yi
+𛄡	katakana letter archaic ye
+𛄢	katakana letter archaic wu
 𛅐	hiragana letter small wi
 𛅑	hiragana letter small we
 𛅒	hiragana letter small wo
@@ -26561,6 +27752,191 @@ z	latin small letter z
 𛲡	shorthand format continuing overlap
 𛲢	shorthand format down step
 𛲣	shorthand format up step
+𜼀	znamenny combining mark gorazdo nizko s kryzhem on left
+𜼁	znamenny combining mark nizko s kryzhem on left
+𜼂	znamenny combining mark tsata on left
+𜼃	znamenny combining mark gorazdo nizko on left
+𜼄	znamenny combining mark nizko on left
+𜼅	znamenny combining mark sredne on left
+𜼆	znamenny combining mark malo povyshe on left
+𜼇	znamenny combining mark povyshe on left
+𜼈	znamenny combining mark vysoko on left
+𜼉	znamenny combining mark malo povyshe s khokhlom on left
+𜼊	znamenny combining mark povyshe s khokhlom on left
+𜼋	znamenny combining mark vysoko s khokhlom on left
+𜼌	znamenny combining mark gorazdo nizko s kryzhem on right
+𜼍	znamenny combining mark nizko s kryzhem on right
+𜼎	znamenny combining mark tsata on right
+𜼏	znamenny combining mark gorazdo nizko on right
+𜼐	znamenny combining mark nizko on right
+𜼑	znamenny combining mark sredne on right
+𜼒	znamenny combining mark malo povyshe on right
+𜼓	znamenny combining mark povyshe on right
+𜼔	znamenny combining mark vysoko on right
+𜼕	znamenny combining mark malo povyshe s khokhlom on right
+𜼖	znamenny combining mark povyshe s khokhlom on right
+𜼗	znamenny combining mark vysoko s khokhlom on right
+𜼘	znamenny combining mark tsata s kryzhem
+𜼙	znamenny combining mark malo povyshe s kryzhem
+𜼚	znamenny combining mark stranno malo povyshe
+𜼛	znamenny combining mark povyshe s kryzhem
+𜼜	znamenny combining mark povyshe stranno
+𜼝	znamenny combining mark vysoko s kryzhem
+𜼞	znamenny combining mark malo povyshe stranno
+𜼟	znamenny combining mark gorazdo vysoko
+𜼠	znamenny combining mark zelo
+𜼡	znamenny combining mark on
+𜼢	znamenny combining mark ravno
+𜼣	znamenny combining mark tikhaya
+𜼤	znamenny combining mark borzaya
+𜼥	znamenny combining mark udarka
+𜼦	znamenny combining mark podvertka
+𜼧	znamenny combining mark lomka
+𜼨	znamenny combining mark kupnaya
+𜼩	znamenny combining mark kachka
+𜼪	znamenny combining mark zevok
+𜼫	znamenny combining mark skoba
+𜼬	znamenny combining mark razseka
+𜼭	znamenny combining mark kryzh on left
+𜼰	znamenny combining tonal range mark mrachno
+𜼱	znamenny combining tonal range mark svetlo
+𜼲	znamenny combining tonal range mark tresvetlo
+𜼳	znamenny combining mark zaderzhka
+𜼴	znamenny combining mark demestvenny zaderzhka
+𜼵	znamenny combining mark otsechka
+𜼶	znamenny combining mark podchashie
+𜼷	znamenny combining mark podchashie with vertical stroke
+𜼸	znamenny combining mark chashka
+𜼹	znamenny combining mark chashka polnaya
+𜼺	znamenny combining mark oblachko
+𜼻	znamenny combining mark sorochya nozhka
+𜼼	znamenny combining mark tochka
+𜼽	znamenny combining mark dvoetochie
+𜼾	znamenny combining attaching vertical omet
+𜼿	znamenny combining mark curved omet
+𜽀	znamenny combining mark kryzh
+𜽁	znamenny combining lower tonal range indicator
+𜽂	znamenny priznak modifier level-2
+𜽃	znamenny priznak modifier level-3
+𜽄	znamenny priznak modifier direction flip
+𜽅	znamenny priznak modifier kryzh
+𜽆	znamenny priznak modifier rog
+𜽐	znamenny neume kryuk
+𜽑	znamenny neume kryuk tikhy
+𜽒	znamenny neume paraklit
+𜽓	znamenny neume dva v chelnu
+𜽔	znamenny neume klyuch
+𜽕	znamenny neume zanozhek
+𜽖	znamenny neume stopitsa
+𜽗	znamenny neume stopitsa s ochkom
+𜽘	znamenny neume perevodka
+𜽙	znamenny neume perevodka nepostoyannaya
+𜽚	znamenny neume stopitsa with sorochya nozhka
+𜽛	znamenny neume chelyustka
+𜽜	znamenny neume palka
+𜽝	znamenny neume zapyataya
+𜽞	znamenny neume golubchik borzy
+𜽟	znamenny neume golubchik tikhy
+𜽠	znamenny neume golubchik mrachny
+𜽡	znamenny neume golubchik svetly
+𜽢	znamenny neume golubchik tresvetly
+𜽣	znamenny neume vrakhiya prostaya
+𜽤	znamenny neume vrakhiya mrachnaya
+𜽥	znamenny neume vrakhiya svetlaya
+𜽦	znamenny neume vrakhiya tresvetlaya
+𜽧	znamenny neume vrakhiya klyuchevaya prostaya
+𜽨	znamenny neume vrakhiya klyuchevaya mrachnaya
+𜽩	znamenny neume vrakhiya klyuchevaya svetlaya
+𜽪	znamenny neume vrakhiya klyuchevaya tresvetlaya
+𜽫	znamenny neume double zapyataya
+𜽬	znamenny neume reversed chelyustka
+𜽭	znamenny neume derbitsa
+𜽮	znamenny neume khamilo
+𜽯	znamenny neume chashka
+𜽰	znamenny neume podchashie
+𜽱	znamenny neume skameytsa mrachnaya
+𜽲	znamenny neume skameytsa svetlaya
+𜽳	znamenny neume skameytsa tresvetlaya
+𜽴	znamenny neume skameytsa tikhaya
+𜽵	znamenny neume demestvenny klyuch
+𜽶	znamenny neume skameytsa klyuchevaya svetlaya
+𜽷	znamenny neume skameytsa klyuchenepostoyannaya
+𜽸	znamenny neume skameytsa klyuchevaya tikhaya
+𜽹	znamenny neume skameytsa dvoechelnaya prostaya
+𜽺	znamenny neume skameytsa dvoechelnaya svetlaya
+𜽻	znamenny neume skameytsa dvoechelnaya nepostoyannaya
+𜽼	znamenny neume skameytsa dvoechelnaya klyuchevaya
+𜽽	znamenny neume slozhitie
+𜽾	znamenny neume slozhitie s zapyatoy
+𜽿	znamenny neume slozhitie zakrytoe
+𜾀	znamenny neume slozhitie s kryzhem
+𜾁	znamenny neume kryzh
+𜾂	znamenny neume rog
+𜾃	znamenny neume fita
+𜾄	znamenny neume kobyla
+𜾅	znamenny neume zmeytsa
+𜾆	znamenny neume statya
+𜾇	znamenny neume statya s zapyatoy
+𜾈	znamenny neume statya s kryzhem
+𜾉	znamenny neume statya s zapyatoy i kryzhem
+𜾊	znamenny neume statya s kryzhem i zapyatoy
+𜾋	znamenny neume statya zakrytaya
+𜾌	znamenny neume statya zakrytaya s zapyatoy
+𜾍	znamenny neume statya s rogom
+𜾎	znamenny neume statya s dvumya zapyatymi
+𜾏	znamenny neume statya s zapyatoy i podchashiem
+𜾐	znamenny neume polkulizmy
+𜾑	znamenny neume statya nepostoyannaya
+𜾒	znamenny neume strela prostaya
+𜾓	znamenny neume strela mrachnotikhaya
+𜾔	znamenny neume strela kryzhevaya
+𜾕	znamenny neume strela polupovodnaya
+𜾖	znamenny neume strela povodnaya
+𜾗	znamenny neume strela nepostoyannaya
+𜾘	znamenny neume strela klyuchepovodnaya
+𜾙	znamenny neume strela klyuchenepostoyannaya
+𜾚	znamenny neume strela tikhaya putnaya
+𜾛	znamenny neume strela dvoechelnaya
+𜾜	znamenny neume strela dvoechelnokryzhevaya
+𜾝	znamenny neume strela dvoechelnopovodnaya
+𜾞	znamenny neume strela dvoechelnaya klyuchevaya
+𜾟	znamenny neume strela dvoechelnopovodnaya klyuchevaya
+𜾠	znamenny neume strela gromnaya with single zapyataya
+𜾡	znamenny neume strela gromopovodnaya with single zapyataya
+𜾢	znamenny neume strela gromnaya
+𜾣	znamenny neume strela gromopovodnaya
+𜾤	znamenny neume strela gromopovodnaya with double zapyataya
+𜾥	znamenny neume strela gromokryzhevaya
+𜾦	znamenny neume strela gromokryzhevaya povodnaya
+𜾧	znamenny neume mechik
+𜾨	znamenny neume mechik povodny
+𜾩	znamenny neume mechik klyuchevoy
+𜾪	znamenny neume mechik klyuchepovodny
+𜾫	znamenny neume mechik klyuchenepostoyanny
+𜾬	znamenny neume strela tryasoglasnaya
+𜾭	znamenny neume strela tryasopovodnaya
+𜾮	znamenny neume strela tryasostrelnaya
+𜾯	znamenny neume osoka
+𜾰	znamenny neume osoka svetlaya
+𜾱	znamenny neume osoka tresvetlaya
+𜾲	znamenny neume osoka kryukovaya svetlaya
+𜾳	znamenny neume osoka klyuchevaya svetlaya
+𜾴	znamenny neume osoka klyuchevaya nepostoyannaya
+𜾵	znamenny neume strela kryukovaya
+𜾶	znamenny neume strela kryukovaya povodnaya
+𜾷	znamenny neume strela kryukovaya gromnaya with single zapyataya
+𜾸	znamenny neume strela kryukovaya gromopovodnaya with single zapyataya
+𜾹	znamenny neume strela kryukovaya gromnaya
+𜾺	znamenny neume strela kryukovaya gromopovodnaya
+𜾻	znamenny neume strela kryukovaya gromopovodnaya with double zapyataya
+𜾼	znamenny neume strela kryukovaya gromokryzhevaya
+𜾽	znamenny neume strela kryukovaya gromokryzhevaya povodnaya
+𜾾	znamenny neume strela kryukovaya tryaska
+𜾿	znamenny neume kufisma
+𜿀	znamenny neume oblako
+𜿁	znamenny neume duda
+𜿂	znamenny neume nemka
+𜿃	znamenny neume pauk
 𝀀	byzantine musical symbol psili
 𝀁	byzantine musical symbol daseia
 𝀂	byzantine musical symbol perispomeni
@@ -27038,6 +28414,8 @@ z	latin small letter z
 𝇦	musical symbol kievan eighth note stem down
 𝇧	musical symbol kievan eighth note stem up
 𝇨	musical symbol kievan flat sign
+𝇩	musical symbol sori
+𝇪	musical symbol koron
 𝈀	greek vocal notation symbol-1
 𝈁	greek vocal notation symbol-2
 𝈂	greek vocal notation symbol-3
@@ -28908,6 +30286,37 @@ z	latin small letter z
 𝪭	signwriting rotation modifier-14
 𝪮	signwriting rotation modifier-15
 𝪯	signwriting rotation modifier-16
+𝼀	latin small letter feng digraph with trill
+𝼁	latin small letter reversed script g
+𝼂	latin letter small capital turned g
+𝼃	latin small letter reversed k
+𝼄	latin letter small capital l with belt
+𝼅	latin small letter lezh with retroflex hook
+𝼆	latin small letter turned y with belt
+𝼇	latin small letter reversed eng
+𝼈	latin small letter turned r with long leg and retroflex hook
+𝼉	latin small letter t with hook and retroflex hook
+𝼊	latin letter retroflex click with retroflex hook
+𝼋	latin small letter esh with double bar
+𝼌	latin small letter esh with double bar and curl
+𝼍	latin small letter turned t with curl
+𝼎	latin letter inverted glottal stop with curl
+𝼏	latin letter stretched c with curl
+𝼐	latin letter small capital turned k
+𝼑	latin small letter l with fishhook
+𝼒	latin small letter dezh digraph with palatal hook
+𝼓	latin small letter l with belt and palatal hook
+𝼔	latin small letter eng with palatal hook
+𝼕	latin small letter turned r with palatal hook
+𝼖	latin small letter r with fishhook and palatal hook
+𝼗	latin small letter tesh digraph with palatal hook
+𝼘	latin small letter ezh with palatal hook
+𝼙	latin small letter dezh digraph with retroflex hook
+𝼚	latin small letter i with stroke and retroflex hook
+𝼛	latin small letter o with retroflex hook
+𝼜	latin small letter tesh digraph with retroflex hook
+𝼝	latin small letter c with retroflex hook
+𝼞	latin small letter s with curl
 𞀀	combining glagolitic letter azu
 𞀁	combining glagolitic letter buky
 𞀂	combining glagolitic letter vede
@@ -29017,6 +30426,37 @@ z	latin small letter z
 𞅉	nyiakeng puachue hmong digit nine
 𞅎	nyiakeng puachue hmong logogram nyaj
 𞅏	nyiakeng puachue hmong circled ca
+𞊐	toto letter pa
+𞊑	toto letter ba
+𞊒	toto letter ta
+𞊓	toto letter da
+𞊔	toto letter ka
+𞊕	toto letter ga
+𞊖	toto letter ma
+𞊗	toto letter na
+𞊘	toto letter nga
+𞊙	toto letter sa
+𞊚	toto letter cha
+𞊛	toto letter ya
+𞊜	toto letter wa
+𞊝	toto letter ja
+𞊞	toto letter ha
+𞊟	toto letter ra
+𞊠	toto letter la
+𞊡	toto letter i
+𞊢	toto letter breathy i
+𞊣	toto letter iu
+𞊤	toto letter breathy iu
+𞊥	toto letter u
+𞊦	toto letter e
+𞊧	toto letter breathy e
+𞊨	toto letter eo
+𞊩	toto letter breathy eo
+𞊪	toto letter o
+𞊫	toto letter ae
+𞊬	toto letter breathy ae
+𞊭	toto letter a
+𞊮	toto sign rising tone
 𞋀	wancho letter aa
 𞋁	wancho letter a
 𞋂	wancho letter ba
@@ -29076,6 +30516,34 @@ z	latin small letter z
 𞋸	wancho digit eight
 𞋹	wancho digit nine
 𞋿	wancho ngun sign
+𞟠	ethiopic syllable hhya
+𞟡	ethiopic syllable hhyu
+𞟢	ethiopic syllable hhyi
+𞟣	ethiopic syllable hhyaa
+𞟤	ethiopic syllable hhyee
+𞟥	ethiopic syllable hhye
+𞟦	ethiopic syllable hhyo
+𞟨	ethiopic syllable gurage hhwa
+𞟩	ethiopic syllable hhwi
+𞟪	ethiopic syllable hhwee
+𞟫	ethiopic syllable hhwe
+𞟭	ethiopic syllable gurage mwi
+𞟮	ethiopic syllable gurage mwee
+𞟰	ethiopic syllable gurage qwi
+𞟱	ethiopic syllable gurage qwee
+𞟲	ethiopic syllable gurage qwe
+𞟳	ethiopic syllable gurage bwi
+𞟴	ethiopic syllable gurage bwee
+𞟵	ethiopic syllable gurage kwi
+𞟶	ethiopic syllable gurage kwee
+𞟷	ethiopic syllable gurage kwe
+𞟸	ethiopic syllable gurage gwi
+𞟹	ethiopic syllable gurage gwee
+𞟺	ethiopic syllable gurage gwe
+𞟻	ethiopic syllable gurage fwi
+𞟼	ethiopic syllable gurage fwee
+𞟽	ethiopic syllable gurage pwi
+𞟾	ethiopic syllable gurage pwee
 𞠀	mende kikakui syllable m001 ki
 𞠁	mende kikakui syllable m002 ka
 𞠂	mende kikakui syllable m003 ku
@@ -29888,6 +31356,9 @@ z	latin small letter z
 🄊	digit nine comma
 🄋	dingbat circled sans-serif digit zero
 🄌	dingbat negative circled sans-serif digit zero
+🄍	circled zero with slash
+🄎	circled anticlockwise arrow
+🄏	circled dollar sign with overlaid backslash
 🄐	parenthesized latin capital letter a
 🄑	parenthesized latin capital letter b
 🄒	parenthesized latin capital letter c
@@ -29981,6 +31452,9 @@ z	latin small letter z
 🅪	raised mc sign
 🅫	raised md sign
 🅬	raised mr sign
+🅭	circled cc
+🅮	circled c with overlaid backslash
+🅯	circled human figure
 🅰	negative squared latin capital letter a
 🅱	negative squared latin capital letter b
 🅲	negative squared latin capital letter c
@@ -30042,6 +31516,7 @@ z	latin small letter z
 🆪	squared shv
 🆫	squared uhd
 🆬	squared vod
+🆭	mask work symbol
 🇦	regional indicator symbol letter a
 🇧	regional indicator symbol letter b
 🇨	regional indicator symbol letter c
@@ -31112,6 +32587,11 @@ z	latin small letter z
 🛓	stupa
 🛔	pagoda
 🛕	hindu temple
+🛖	hut
+🛗	elevator
+🛝	playground slide
+🛞	wheel
+🛟	ring buoy
 🛠	hammer and wrench
 🛡	shield
 🛢	oil drum
@@ -31136,6 +32616,8 @@ z	latin small letter z
 🛸	flying saucer
 🛹	skateboard
 🛺	auto rickshaw
+🛻	pickup truck
+🛼	roller skate
 🜀	alchemical symbol for quintessence
 🜁	alchemical symbol for air
 🜂	alchemical symbol for fire
@@ -31353,6 +32835,7 @@ z	latin small letter z
 🟩	large green square
 🟪	large purple square
 🟫	large brown square
+🟰	heavy equals sign
 🠀	leftwards arrow with small triangle arrowhead
 🠁	upwards arrow with small triangle arrowhead
 🠂	rightwards arrow with small triangle arrowhead
@@ -31501,6 +32984,8 @@ z	latin small letter z
 🢫	rightwards front-tilted shadowed white arrow
 🢬	white arrow shaft width one
 🢭	white arrow shaft width two thirds
+🢰	arrow pointing upwards then north west
+🢱	arrow pointing rightwards then curving south west
 🤀	circled cross formee with four dots
 🤁	circled cross formee with two dots
 🤂	circled cross formee
@@ -31513,6 +32998,7 @@ z	latin small letter z
 🤉	downward facing notched hook
 🤊	downward facing hook with dot
 🤋	downward facing notched hook with dot
+🤌	pinched fingers
 🤍	white heart
 🤎	brown heart
 🤏	pinching hand
@@ -31614,10 +33100,14 @@ z	latin small letter z
 🥯	bagel
 🥰	smiling face with smiling eyes and three hearts
 🥱	yawning face
+🥲	smiling face with tear
 🥳	face with party horn and party hat
 🥴	face with uneven eyes and wavy mouth
 🥵	overheated face
 🥶	freezing face
+🥷	ninja
+🥸	disguised face
+🥹	face holding back tears
 🥺	face with pleading eyes
 🥻	sari
 🥼	lab coat
@@ -31659,12 +33149,17 @@ z	latin small letter z
 🦠	microbe
 🦡	badger
 🦢	swan
+🦣	mammoth
+🦤	dodo
 🦥	sloth
 🦦	otter
 🦧	orangutan
 🦨	skunk
 🦩	flamingo
 🦪	oyster
+🦫	beaver
+🦬	bison
+🦭	seal
 🦮	guide dog
 🦯	probing cane
 🦰	emoji component red hair
@@ -31694,6 +33189,8 @@ z	latin small letter z
 🧈	butter
 🧉	mate drink
 🧊	ice cube
+🧋	bubble tea
+🧌	troll
 🧍	standing person
 🧎	kneeling person
 🧏	deaf person
@@ -31847,18 +33344,302 @@ z	latin small letter z
 🩱	one-piece swimsuit
 🩲	briefs
 🩳	shorts
+🩴	thong sandal
 🩸	drop of blood
 🩹	adhesive bandage
 🩺	stethoscope
+🩻	x-ray
+🩼	crutch
 🪀	yo-yo
 🪁	kite
 🪂	parachute
+🪃	boomerang
+🪄	magic wand
+🪅	pinata
+🪆	nesting dolls
 🪐	ringed planet
 🪑	chair
 🪒	razor
 🪓	axe
 🪔	diya lamp
 🪕	banjo
+🪖	military helmet
+🪗	accordion
+🪘	long drum
+🪙	coin
+🪚	carpentry saw
+🪛	screwdriver
+🪜	ladder
+🪝	hook
+🪞	mirror
+🪟	window
+🪠	plunger
+🪡	sewing needle
+🪢	knot
+🪣	bucket
+🪤	mouse trap
+🪥	toothbrush
+🪦	headstone
+🪧	placard
+🪨	rock
+🪩	mirror ball
+🪪	identification card
+🪫	low battery
+🪬	hamsa
+🪰	fly
+🪱	worm
+🪲	beetle
+🪳	cockroach
+🪴	potted plant
+🪵	wood
+🪶	feather
+🪷	lotus
+🪸	coral
+🪹	empty nest
+🪺	nest with eggs
+🫀	anatomical heart
+🫁	lungs
+🫂	people hugging
+🫃	pregnant man
+🫄	pregnant person
+🫅	person with crown
+🫐	blueberries
+🫑	bell pepper
+🫒	olive
+🫓	flatbread
+🫔	tamale
+🫕	fondue
+🫖	teapot
+🫗	pouring liquid
+🫘	beans
+🫙	jar
+🫠	melting face
+🫡	saluting face
+🫢	face with open eyes and hand over mouth
+🫣	face with peeking eye
+🫤	face with diagonal mouth
+🫥	dotted line face
+🫦	biting lip
+🫧	bubbles
+🫰	hand with index finger and thumb crossed
+🫱	rightwards hand
+🫲	leftwards hand
+🫳	palm down hand
+🫴	palm up hand
+🫵	index pointing at the viewer
+🫶	heart hands
+🬀	block sextant-1
+🬁	block sextant-2
+🬂	block sextant-12
+🬃	block sextant-3
+🬄	block sextant-13
+🬅	block sextant-23
+🬆	block sextant-123
+🬇	block sextant-4
+🬈	block sextant-14
+🬉	block sextant-24
+🬊	block sextant-124
+🬋	block sextant-34
+🬌	block sextant-134
+🬍	block sextant-234
+🬎	block sextant-1234
+🬏	block sextant-5
+🬐	block sextant-15
+🬑	block sextant-25
+🬒	block sextant-125
+🬓	block sextant-35
+🬔	block sextant-235
+🬕	block sextant-1235
+🬖	block sextant-45
+🬗	block sextant-145
+🬘	block sextant-245
+🬙	block sextant-1245
+🬚	block sextant-345
+🬛	block sextant-1345
+🬜	block sextant-2345
+🬝	block sextant-12345
+🬞	block sextant-6
+🬟	block sextant-16
+🬠	block sextant-26
+🬡	block sextant-126
+🬢	block sextant-36
+🬣	block sextant-136
+🬤	block sextant-236
+🬥	block sextant-1236
+🬦	block sextant-46
+🬧	block sextant-146
+🬨	block sextant-1246
+🬩	block sextant-346
+🬪	block sextant-1346
+🬫	block sextant-2346
+🬬	block sextant-12346
+🬭	block sextant-56
+🬮	block sextant-156
+🬯	block sextant-256
+🬰	block sextant-1256
+🬱	block sextant-356
+🬲	block sextant-1356
+🬳	block sextant-2356
+🬴	block sextant-12356
+🬵	block sextant-456
+🬶	block sextant-1456
+🬷	block sextant-2456
+🬸	block sextant-12456
+🬹	block sextant-3456
+🬺	block sextant-13456
+🬻	block sextant-23456
+🬼	lower left block diagonal lower middle left to lower centre
+🬽	lower left block diagonal lower middle left to lower right
+🬾	lower left block diagonal upper middle left to lower centre
+🬿	lower left block diagonal upper middle left to lower right
+🭀	lower left block diagonal upper left to lower centre
+🭁	lower right block diagonal upper middle left to upper centre
+🭂	lower right block diagonal upper middle left to upper right
+🭃	lower right block diagonal lower middle left to upper centre
+🭄	lower right block diagonal lower middle left to upper right
+🭅	lower right block diagonal lower left to upper centre
+🭆	lower right block diagonal lower middle left to upper middle right
+🭇	lower right block diagonal lower centre to lower middle right
+🭈	lower right block diagonal lower left to lower middle right
+🭉	lower right block diagonal lower centre to upper middle right
+🭊	lower right block diagonal lower left to upper middle right
+🭋	lower right block diagonal lower centre to upper right
+🭌	lower left block diagonal upper centre to upper middle right
+🭍	lower left block diagonal upper left to upper middle right
+🭎	lower left block diagonal upper centre to lower middle right
+🭏	lower left block diagonal upper left to lower middle right
+🭐	lower left block diagonal upper centre to lower right
+🭑	lower left block diagonal upper middle left to lower middle right
+🭒	upper right block diagonal lower middle left to lower centre
+🭓	upper right block diagonal lower middle left to lower right
+🭔	upper right block diagonal upper middle left to lower centre
+🭕	upper right block diagonal upper middle left to lower right
+🭖	upper right block diagonal upper left to lower centre
+🭗	upper left block diagonal upper middle left to upper centre
+🭘	upper left block diagonal upper middle left to upper right
+🭙	upper left block diagonal lower middle left to upper centre
+🭚	upper left block diagonal lower middle left to upper right
+🭛	upper left block diagonal lower left to upper centre
+🭜	upper left block diagonal lower middle left to upper middle right
+🭝	upper left block diagonal lower centre to lower middle right
+🭞	upper left block diagonal lower left to lower middle right
+🭟	upper left block diagonal lower centre to upper middle right
+🭠	upper left block diagonal lower left to upper middle right
+🭡	upper left block diagonal lower centre to upper right
+🭢	upper right block diagonal upper centre to upper middle right
+🭣	upper right block diagonal upper left to upper middle right
+🭤	upper right block diagonal upper centre to lower middle right
+🭥	upper right block diagonal upper left to lower middle right
+🭦	upper right block diagonal upper centre to lower right
+🭧	upper right block diagonal upper middle left to lower middle right
+🭨	upper and right and lower triangular three quarters block
+🭩	left and lower and right triangular three quarters block
+🭪	upper and left and lower triangular three quarters block
+🭫	left and upper and right triangular three quarters block
+🭬	left triangular one quarter block
+🭭	upper triangular one quarter block
+🭮	right triangular one quarter block
+🭯	lower triangular one quarter block
+🭰	vertical one eighth block-2
+🭱	vertical one eighth block-3
+🭲	vertical one eighth block-4
+🭳	vertical one eighth block-5
+🭴	vertical one eighth block-6
+🭵	vertical one eighth block-7
+🭶	horizontal one eighth block-2
+🭷	horizontal one eighth block-3
+🭸	horizontal one eighth block-4
+🭹	horizontal one eighth block-5
+🭺	horizontal one eighth block-6
+🭻	horizontal one eighth block-7
+🭼	left and lower one eighth block
+🭽	left and upper one eighth block
+🭾	right and upper one eighth block
+🭿	right and lower one eighth block
+🮀	upper and lower one eighth block
+🮁	horizontal one eighth block-1358
+🮂	upper one quarter block
+🮃	upper three eighths block
+🮄	upper five eighths block
+🮅	upper three quarters block
+🮆	upper seven eighths block
+🮇	right one quarter block
+🮈	right three eighths block
+🮉	right five eighths block
+🮊	right three quarters block
+🮋	right seven eighths block
+🮌	left half medium shade
+🮍	right half medium shade
+🮎	upper half medium shade
+🮏	lower half medium shade
+🮐	inverse medium shade
+🮑	upper half block and lower half inverse medium shade
+🮒	upper half inverse medium shade and lower half block
+🮔	left half inverse medium shade and right half block
+🮕	checker board fill
+🮖	inverse checker board fill
+🮗	heavy horizontal fill
+🮘	upper left to lower right fill
+🮙	upper right to lower left fill
+🮚	upper and lower triangular half block
+🮛	left and right triangular half block
+🮜	upper left triangular medium shade
+🮝	upper right triangular medium shade
+🮞	lower right triangular medium shade
+🮟	lower left triangular medium shade
+🮠	box drawings light diagonal upper centre to middle left
+🮡	box drawings light diagonal upper centre to middle right
+🮢	box drawings light diagonal middle left to lower centre
+🮣	box drawings light diagonal middle right to lower centre
+🮤	box drawings light diagonal upper centre to middle left to lower centre
+🮥	box drawings light diagonal upper centre to middle right to lower centre
+🮦	box drawings light diagonal middle left to lower centre to middle right
+🮧	box drawings light diagonal middle left to upper centre to middle right
+🮨	box drawings light diagonal upper centre to middle left and middle right to lower centre
+🮩	box drawings light diagonal upper centre to middle right and middle left to lower centre
+🮪	box drawings light diagonal upper centre to middle right to lower centre to middle left
+🮫	box drawings light diagonal upper centre to middle left to lower centre to middle right
+🮬	box drawings light diagonal middle left to upper centre to middle right to lower centre
+🮭	box drawings light diagonal middle right to upper centre to middle left to lower centre
+🮮	box drawings light diagonal diamond
+🮯	box drawings light horizontal with vertical stroke
+🮰	arrowhead-shaped pointer
+🮱	inverse check mark
+🮲	left half running man
+🮳	right half running man
+🮴	inverse downwards arrow with tip leftwards
+🮵	leftwards arrow and upper and lower one eighth block
+🮶	rightwards arrow and upper and lower one eighth block
+🮷	downwards arrow and right one eighth block
+🮸	upwards arrow and right one eighth block
+🮹	left half folder
+🮺	right half folder
+🮻	voided greek cross
+🮼	right open squared dot
+🮽	negative diagonal cross
+🮾	negative diagonal middle right to lower centre
+🮿	negative diagonal diamond
+🯀	white heavy saltire with rounded corners
+🯁	left third white right pointing index
+🯂	middle third white right pointing index
+🯃	right third white right pointing index
+🯄	negative squared question mark
+🯅	stick figure
+🯆	stick figure with arms raised
+🯇	stick figure leaning left
+🯈	stick figure leaning right
+🯉	stick figure with dress
+🯊	white up-pointing chevron
+🯰	segmented digit zero
+🯱	segmented digit one
+🯲	segmented digit two
+🯳	segmented digit three
+🯴	segmented digit four
+🯵	segmented digit five
+🯶	segmented digit six
+🯷	segmented digit seven
+🯸	segmented digit eight
+🯹	segmented digit nine
 丽	cjk compatibility ideograph-2f800
 丸	cjk compatibility ideograph-2f801
 乁	cjk compatibility ideograph-2f802
@@ -33767,7 +35548,7 @@ z	latin small letter z
 	fae chess_pawn
 	fae chess_queen
 	fae chess_tower
-	fae chesse
+	fae cheese
 	fae chicken_thigh
 	fae chilli
 	fae chip
