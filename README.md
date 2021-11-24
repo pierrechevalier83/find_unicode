@@ -9,7 +9,7 @@ A simple command line application to find unicode characters with minimum effort
 Installation
 ===
 
-`cargo install fu`
+`cargo install find_unicode`
 
 Usage
 ===
