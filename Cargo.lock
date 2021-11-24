@@ -383,7 +383,7 @@ dependencies = [
 
 [[package]]
 name = "find_unicode"
-version = "0.3.0"
+version = "0.4.0"
 dependencies = [
  "skim",
  "structopt",
