@@ -1,7 +1,7 @@
 [package]
 name = "find_unicode"
 default-run="fu"
-version = "0.2.0"
+version = "0.3.0"
 authors = ["Pierre Chevalier <pierrechevalier83@gmail.com>"]
 description = "Find Unicode characters, the easy way!"
 documentation = "https://github.com/pierrechevalier83/find_unicode/blob/master/README.md"
