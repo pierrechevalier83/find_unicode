@@ -38,16 +38,14 @@ fn parse_unicode_data_line(line: &str) -> Option<String> {
     let tokens = line.split(';').collect::<Vec<_>>();
     if !tokens.len() == 15 {
         None
-    } else {
-        if let Some(character) = try_char_from_string_index(tokens[0]) {
-            let name = tokens[1].to_string();
-            if name.is_empty() || name.starts_with("<") || name.to_lowercase().contains("control") {
-                return None;
-            }
-            Some(format_line(character, &name))
-        } else {
-            None
+    } else if let Some(character) = try_char_from_string_index(tokens[0]) {
+        let name = tokens[1].to_string();
+        if name.is_empty() || name.starts_with('<') || name.to_lowercase().contains("control") {
+            return None;
         }
+        Some(format_line(character, &name))
+    } else {
+        None
     }
 }
 

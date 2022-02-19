@@ -57,7 +57,7 @@ struct Options {
 
 fn main() -> Result<(), Error> {
     let options = Options::from_args();
-    let query = options.initial_query.unwrap_or(String::new());
+    let query = options.initial_query.unwrap_or_default();
     let options = SkimOptionsBuilder::default()
         .query(Some(&query))
         .regex(options.search == Search::Regex)
