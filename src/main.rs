@@ -1,62 +1,49 @@
+use clap::{ArgEnum, Parser};
 use skim::{
     prelude::{SkimItemReader, SkimOptionsBuilder},
     Skim,
 };
-use std::io::{BufReader, Error};
-use structopt::clap::arg_enum;
-use structopt::StructOpt;
+use std::error::Error;
 
-arg_enum! {
-    #[derive(PartialEq)]
-    enum Search {
-        Regex,
-        Exact,
-        Fuzzy
-    }
+#[derive(ArgEnum, Clone, Copy, PartialEq, Eq)]
+enum Search {
+    Regex,
+    Exact,
+    Fuzzy,
 }
 
-arg_enum! {
-    #[derive(PartialEq)]
-    enum Layout {
-        Above,
-        Below,
-    }
+#[derive(ArgEnum, Clone, Copy, PartialEq, Eq)]
+enum Layout {
+    Above,
+    Below,
 }
 
-#[derive(StructOpt)]
-#[structopt(
-    name = "fu",
-    about = "\nFind Unicode characters with ease.\n\nSimply type a description of the character you are looking for. Once you found the character you were after, hit Enter. Selecting multiple characters is also possible: hit tab to select a character and continue browsing."
-)]
+/// Find Unicode characters with ease.
+///
+/// Simply type a description of the character you are looking for. Once you found the character
+/// you were after, hit Enter. Selecting multiple characters is also possible: hit tab to select a
+/// character and continue browsing.
+#[derive(Parser)]
+#[clap(name = "fu", version, about)]
 struct Options {
-    #[structopt(help = "Initial query, if any")]
+    /// Initial query, if any
     initial_query: Option<String>,
-    #[structopt(
-        possible_values = &Search::variants(),
-        case_insensitive = true,
-        long = "search",
-        help = "Search mode",
-        default_value = "Regex"
-    )]
+    /// Search mode
+    #[clap(arg_enum, long, default_value = "regex")]
     search: Search,
-    #[structopt(
-        possible_values = &Layout::variants(),
-        case_insensitive = true,
-        long = "layout",
-        help = "Position of fu's window relative to the prompt",
-        default_value = "Below"
-    )]
+    /// Position of fu's window relative to the prompt
+    #[clap(arg_enum, long, default_value = "below")]
     layout: Layout,
-    #[structopt(
-        long = "height",
-        help = "Height of fu's window relative to the terminal window",
-        default_value = "50%"
-    )]
+    /// Height of fu's window relative to the terminal window
+    #[clap(long, default_value = "50%")]
     height: String,
+    /// Color theme. Refer to https://github.com/lotabout/skim#color-scheme for more info.
+    #[clap(long)]
+    color: Option<String>,
 }
 
-fn main() -> Result<(), Error> {
-    let options = Options::from_args();
+fn main() -> Result<(), Box<dyn Error>> {
+    let options = Options::parse();
     let query = options.initial_query.unwrap_or_default();
     let options = SkimOptionsBuilder::default()
         .query(Some(&query))
@@ -64,13 +51,12 @@ fn main() -> Result<(), Error> {
         .exact(options.search == Search::Exact)
         .reverse(options.layout == Layout::Below)
         .height(Some(&options.height))
+        .color(options.color.as_deref())
         .multi(true)
         .inline_info(true)
-        .build()
-        .unwrap();
-    let unicode_data = BufReader::new(&include_bytes!("UnicodeData")[..]);
+        .build()?;
     let item_reader = SkimItemReader::default();
-    let items = item_reader.of_bufread(unicode_data);
+    let items = item_reader.of_bufread(&include_bytes!("UnicodeData")[..]);
     Skim::run_with(&options, Some(items))
         .map(|output| output.selected_items)
         .iter()
