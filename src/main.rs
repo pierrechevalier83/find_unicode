@@ -3,7 +3,7 @@ use skim::{
     prelude::{SkimItemReader, SkimOptionsBuilder},
     Skim,
 };
-use std::io::{BufReader, Error};
+use std::error::Error;
 
 #[derive(ArgEnum, Clone, Copy, PartialEq, Eq)]
 enum Search {
@@ -39,7 +39,7 @@ struct Options {
     height: String,
 }
 
-fn main() -> Result<(), Error> {
+fn main() -> Result<(), Box<dyn Error>> {
     let options = Options::parse();
     let query = options.initial_query.unwrap_or_default();
     let options = SkimOptionsBuilder::default()
@@ -50,11 +50,9 @@ fn main() -> Result<(), Error> {
         .height(Some(&options.height))
         .multi(true)
         .inline_info(true)
-        .build()
-        .unwrap();
-    let unicode_data = BufReader::new(&include_bytes!("UnicodeData")[..]);
+        .build()?;
     let item_reader = SkimItemReader::default();
-    let items = item_reader.of_bufread(unicode_data);
+    let items = item_reader.of_bufread(&include_bytes!("UnicodeData")[..]);
     Skim::run_with(&options, Some(items))
         .map(|output| output.selected_items)
         .iter()
