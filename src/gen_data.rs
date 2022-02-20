@@ -10,7 +10,7 @@ fn generate_font_awesome_table() -> String {
         .split('\n')
         .filter_map(|s| s.split(".nf-").nth(1))
         .map(|s| s.replace(":before {", ""))
-        .map(|s| s.replace("-", " "));
+        .map(|s| s.replace('-', " "));
     let unicode = content
         .split('\n')
         .filter_map(|s| s.split("content: ").nth(1))
