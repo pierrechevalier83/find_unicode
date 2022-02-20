@@ -37,6 +37,9 @@ struct Options {
     /// Height of fu's window relative to the terminal window
     #[clap(long, default_value = "50%")]
     height: String,
+    /// Color theme. Refer to https://github.com/lotabout/skim#color-scheme for more info.
+    #[clap(long)]
+    color: Option<String>,
 }
 
 fn main() -> Result<(), Box<dyn Error>> {
@@ -48,6 +51,7 @@ fn main() -> Result<(), Box<dyn Error>> {
         .exact(options.search == Search::Exact)
         .reverse(options.layout == Layout::Below)
         .height(Some(&options.height))
+        .color(options.color.as_deref())
         .multi(true)
         .inline_info(true)
         .build()?;
